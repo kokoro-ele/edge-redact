@@ -1,0 +1,58 @@
+{
+  "name": "edge-redact",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "On-device PII redaction for Chinese, English and mixed text. Rules + checksums + a 1.35 MB char-level model, zero dependencies.",
+  "author": "kokoro-ele",
+  "license": "MIT",
+  "homepage": "https://edge-redact.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokoro-ele/edge-redact.git"
+  },
+  "bugs": "https://github.com/kokoro-ele/edge-redact/issues",
+  "keywords": [
+    "pii",
+    "redaction",
+    "privacy",
+    "anonymize",
+    "chinese",
+    "ner",
+    "browser",
+    "on-device"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./model.erdm": "./models/zh-en-ds48-int4.erdm",
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "models/zh-en-ds48-int4.erdm",
+    "MODEL_CARD.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "m0": "pnpm data && pnpm teacher && pnpm bench",
+    "data": "pnpm -C training run data",
+    "teacher": "pnpm -C training run teacher",
+    "bench": "node training/src/bench.ts",
+    "test": "node --test 'test/**/*.test.ts' 'training/src/**/*.test.ts'",
+    "typecheck": "tsc --noEmit",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "prepublishOnly": "pnpm build && pnpm test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}

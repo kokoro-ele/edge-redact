@@ -1,0 +1,15 @@
+{
+  "name": "@edge-redact/playground",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "model": "mkdir -p public && cp ../models/zh-en-ds48-int4.erdm public/model.erdm",
+    "dev": "pnpm model && vite",
+    "build": "pnpm model && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "8.3.8"
+  }
+}

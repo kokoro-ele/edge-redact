@@ -1,0 +1,52 @@
+# id	lang	template. Hard negatives: text that looks like PII but contains none. Written by Claude (claude-opus-5-5) in the M0 session.
+n001	zh	帮我看下这个报错：TypeError: Cannot read properties of undefined (reading 'map')\n    at UserList (/app/src/components/UserList.tsx:{INT}:17)\n    at renderWithHooks (react-dom.development.js:{INT}:18)
+n002	zh	为什么 npm install 报 ERESOLVE？peer react@"^18.0.0" from @testing-library/react@{VER}
+n003	zh	订单号 {ORDER} 一直显示处理中，系统版本 {VER}，请帮我写个工单描述。
+n004	zh	这段 Python 怎么优化：\ndef get_user_by_id(user_id: int):\n    return db.query(User).filter(User.id == user_id).first()
+n005	zh	{FICT}和{FICT}谁更厉害？写一段 300 字的对比。
+n006	zh	服务启动日志：[{TS}] INFO  listening on {LOCALIP}:{PORT} (pid {INT})
+n007	zh	商品型号 {SKU} 和 {SKU} 哪个性价比高？预算 {INT} 元。
+n008	zh	git rebase 冲突了：CONFLICT (content): Merge conflict in src/utils/{INT}.ts，commit {SHA}
+n009	zh	请解释这个正则：^1[3-9]\d{9}$ 为什么能匹配手机号？
+n010	zh	数据库主键用 UUID 还是自增 ID？比如 {UUID} 和 {UID} 哪个好？
+n011	zh	把这个表格转成 markdown：| 产品 | 价格 | 库存 |\n| {SKU} | {INT} | {INT} |
+n012	zh	Docker 容器内存占用 {INT}MB，日志显示 OOMKilled，exit code 137，怎么排查？
+n013	zh	第{INT}章：{FICT}走进了长安城，城门上写着“开元{INT}年”。帮我续写。
+n014	zh	发票号码 {ORDER}，税额 {INT} 元，这张发票能报销吗？
+n015	zh	这个 hash 是什么算法：{SHA}？长度看着像 SHA-1。
+n016	zh	用 Go 写一个函数 ParseVersion("{VER}")，返回 major、minor、patch。
+n017	zh	快递单号 SF{ORDER} 显示已签收，但我没收到，怎么投诉？
+n018	zh	Webpack 打包后 chunk 太大：vendors~main.{SHA}.js ({INT} KiB)
+n019	zh	内存地址 {HEX} 处发生访问冲突，程序崩溃了。
+n020	zh	把变量名 userPhoneNumber、customerIdCard、bankCardNo 改成 snake_case。
+n041	en	Why does this throw? Uncaught (in promise) Error: Request failed with status code 500\n    at createError (axios/lib/core/createError.js:{INT}:15)
+n042	en	Explain this stack trace: java.lang.NullPointerException at com.example.service.UserService.getProfile(UserService.java:{INT})
+n043	en	Compare {SKU} and {SKU} for video editing.
+n044	en	Order {ORDER} shows "pending" for {INT} days. Draft a support ticket.
+n045	en	Write a short story where {FICT} meets {FICT} in a library.
+n046	en	What's the difference between version {VER} and {VER} of this package?
+n047	en	Refactor: function findUserByEmail(email) { return users.find(u => u.email === email) }
+n048	en	The container logs say: [{TS}] ERROR connection refused to {LOCALIP}:{PORT}
+n049	en	Is {SHA} a valid git commit hash format?
+n050	en	Convert this UUID to base64: {UUID}
+n051	en	Chapter {INT}: {FICT} looked at the map and pointed at the mountain. Continue the story.
+n052	en	Explain what the regex \d{3}-\d{2}-\d{4} matches and why it is risky.
+n053	en	Segfault at address {HEX} in libc.so.6, how do I debug with gdb?
+n054	en	How do I rename columns customer_name, phone_number, credit_card in pandas?
+n055	en	Invoice INV{INT} total ${INT}.00 due on net 30 terms. Is this a standard format?
+n056	en	Benchmark: p50={MS}ms p99={MS}ms at {INT} rps on {SKU}.
+n057	en	Kubernetes pod crashloop: Back-off restarting failed container api-{SHA} in pod api-{SHA}-x7k2p
+n058	en	Tracking number 1Z{INT}{INT} says delivered. What does exception code {INT} mean?
+n059	en	In the README, the example API key is YOUR_API_KEY_HERE and the password placeholder is ********. Is that fine?
+n060	en	Write a SQL query: SELECT name, email FROM users WHERE created_at > '2024-01-01' LIMIT {INT};
+n061	mixed	这个 TS 类型报错啥意思：Type 'string | undefined' is not assignable to type 'string'. ts({INT})
+n063	mixed	把这个 log 翻成日文：[{TS}] job={UUID} status=FAILED retries={INT}
+n066	mixed	commit {SHA} 之后 CI 一直红，error: cannot find module './config' 帮看下
+n068	mixed	这个 IP 是本机吗：{LOCALIP}？还有 0.0.0.0 和 127.0.0.1 有什么区别
+n070	mixed	order_id={ORDER}&sku={SKU}&qty={INT} 这个 query string 怎么 parse？
+n073	mixed	Python 3.12 升级后 datetime.utcnow() 有 DeprecationWarning，line {INT}
+n074	mixed	表 users 有字段 id, name, email, phone, created_at，帮我设计索引 (MySQL {VER})
+n076	zh	用户名规则：只能包含字母、数字和下划线，例如 user_{INT}、admin_test。帮我写正则。
+n077	zh	这串数字 {ORDER} 是什么编号？好像是物流单号。
+n079	en	Our staging cluster runs {INT} pods on node pool np-{SHA}; how do I autoscale it?
+n080	mixed	{SKU} 的固件 {VER} 版本 changelog 帮我翻译成日语

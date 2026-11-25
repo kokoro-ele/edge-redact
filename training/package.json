@@ -1,0 +1,12 @@
+{
+  "name": "@edge-redact/training",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "data": "uv run python py/download.py && uv run python py/prepare.py && uv run python py/check_isolation.py",
+    "teacher": "for t in gliner-pii-nvidia gliner-multi-pii ai4privacy-modernbert; do uv run --extra teacher python py/teacher.py $t || exit 1; done",
+    "bench": "node src/bench.ts",
+    "rbench": "node src/rbench.ts",
+    "predict:ts": "f() { node src/tspredict.ts \"$1\" \"$2\" && node src/tspredict.ts \"$1\" \"$2\" --ext; }; f"
+  }
+}

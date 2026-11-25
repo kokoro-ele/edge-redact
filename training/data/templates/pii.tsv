@@ -1,0 +1,50 @@
+# id	lang	template. Slots: {TYPE}. \n is a newline. Written by Claude (claude-opus-5-5) in the M0 session.
+p002	mixed	客户{NAME_ZH}反馈登录失败，手机号{PHONE_CN}，log 里是 401 Unauthorized，帮我分析一下原因
+p004	mixed	這段 config 為什麼連不上？\nDATABASE_URL={DBURL}\nREDIS_PORT={PORT}
+p005	mixed	把下面这封邮件翻译成日语：\nHi {FIRST_EN}, thanks for the call. Please send the contract to {EMAIL} by Friday.
+p007	mixed	debug 一下：requests 发到 {IP}:{PORT} 一直 timeout，header 里带了 Authorization: Bearer {JWT}
+p008	mixed	我同事 {NAME_EN} 说这个 PR 有问题，他的 GitHub token 是 {SECRET}，能帮我看看 CI 为什么挂了吗
+p011	mixed	这是用户提交的表单，帮我检查格式：\n姓名：{NAME_ZH}\n身份证：{CN_ID}\n电话：{PHONE_CN}\nEmail: {EMAIL}
+p013	mixed	Summarize this ticket in Chinese: Customer {NAME_EN} ({EMAIL}) was charged twice on card {CARD}. Order {ORDER}.
+p016	mixed	我的 .env 文件长这样，为什么读不到？\nOPENAI_API_KEY={SECRET}\nADMIN_EMAIL={EMAIL}
+p018	mixed	Customer {NAME_ZH} 打电话来说快递没到，地址 {ADDR_ZH}，tracking number {ORDER}，帮我写个回复
+p020	mixed	帮我优化这条 SQL：SELECT * FROM users WHERE email = '{EMAIL}' AND phone = '{PHONE_CN}';
+p021	mixed	面试反馈：candidate {NAME_EN}，前司 {ORG_EN}，coding 还行，沟通一般。帮我润色成英文邮件发给 HR {FIRST_EN}
+p023	mixed	在 {ORG_EN} 的 Slack 里，{FIRST_EN} 发了 bot token {SECRET}，要不要 revoke？
+p024	mixed	ssh 连不上 {IP}，用户是 deploy，{NAME_ZH} 说密码是 {PASSWORD}，怎么排查
+p025	mixed	帮我把这段话改成 LinkedIn 风格：I'm {NAME_EN}, currently leading {PROJECT} at {ORG_EN}. Reach me at {PHONE_US}.
+p028	mixed	这条 webhook payload 有啥问题？{"user":"{EMAIL}","ip":"{IP}","token":"{SECRET}"}
+p030	mixed	爸爸的身份证号 {CN_ID} 在 App 上一直提示格式错误，是不是最后一位 X 的问题？
+p031	mixed	{SURNAME_ZH}总让我整理一下 {ORG_ZH} 的报销流程，联系人 {NAME_ZH}，电话 {PHONE_CN}，用 markdown 表格
+p034	mixed	我在 {ORG_ZH} 实习，mentor 是 {NAME_ZH}，周报模板帮我写一下，项目代号 {PROJECT}
+p035	mixed	git log 里出现了 Author: {NAME_EN} <{EMAIL}>，怎么从历史里删掉？
+p037	mixed	我朋友 {ROMAJI_NAME} 想来中国旅游，护照住址写的是 {ADDR_EN}，签证表怎么填
+p038	mixed	{NAME_ZH}的银行卡 {CARD} 被盗刷了，帮我写一份给银行的英文申诉信
+p044	mixed	这个 curl 为啥 403？curl -H "x-api-key: {SECRET}" https://api.example.com/v1/users?email={EMAIL}
+p046	mixed	Hi! 我是 {NAME_ZH}，最近在 {ORG_EN} 做 data engineer，想换工作，帮我改简历 summary
+p047	mixed	{ROMAJI}-san's IP is {IP}, he can't access the VPN. 帮我写个排查步骤
+p049	mixed	SSN {SSN} 和 green card 的关系是什么？我是 {NAME_ZH}，在美国工作
+p051	zh	你好，我叫{NAME_ZH}，身份证号是{CN_ID}，想咨询一下社保转移的问题。
+p052	zh	快递地址：{ADDR_ZH}，收件人{NAME_ZH}，电话{PHONE_CN}。帮我看下这个地址写得对不对。
+p053	zh	{SURNAME_ZH}先生您好，您在{ORG_ZH}的订单已发货，如有问题请联系{PHONE_CN}。帮我改得更礼貌一点。
+p054	zh	帮我写一份请假条，我是{ORG_ZH}的{NAME_ZH}，因为家里有事需要请三天假。
+p055	zh	昨天{SURNAME_ZH}老师在群里发了个通知，让家长把孩子的身份证号{CN_ID}发给她，这样安全吗？
+p056	zh	我在{ORG_ZH}的工资卡是{CARD}，开户名{NAME_ZH}，HR说要重新登记，帮我写个说明。
+p057	zh	请总结这段对话：{NAME_ZH}：明天把{PROJECT}的方案发我。{NAME_ZH}：好的，我晚上发到{EMAIL}。
+p058	zh	房东{NAME_ZH}要求我把租金转到{CARD}，地址是{ADDR_ZH}，合同里还写了他的电话{PHONE_CN}，帮我看看合同有没有坑。
+p059	zh	{SURNAME_ZH}女士反映她的账号被盗，绑定的邮箱{EMAIL}收不到验证码，请写一个客服回复。
+p060	zh	简历：{NAME_ZH}，{PHONE_CN}，{EMAIL}，现居{ADDR_ZH}，三年前端经验。帮我润色。
+p071	en	Hi, I'm {NAME_EN} from {ORG_EN}. My SSN is {SSN}; can you help me fill out this W-4 form?
+p072	en	Please proofread: "Dear Mr. {LAST_EN}, the package was delivered to {ADDR_EN}. Call {PHONE_US} with questions."
+p073	en	Our intern {FIRST_EN} pushed {SECRET} to a public repo. What should I do first?
+p074	en	Meeting notes: {NAME_EN} and {NAME_EN} agreed to move {PROJECT} to Q3. Ping {EMAIL} for the deck.
+p075	en	My card {CARD} was declined at checkout but the bank says it's fine. Why?
+p076	en	Write a reference letter for {NAME_EN}, who worked with me at {ORG_EN} for two years.
+p078	en	Server {IP} keeps rejecting {FIRST_EN}'s login with password {PASSWORD}. Logs attached below.
+p079	en	Translate to Chinese: Ms. {LAST_EN} will visit {ORG_ZH} next week regarding {PROJECT}.
+p080	en	Customer record: name={NAME_EN}; email={EMAIL}; phone={PHONE_US}; address={ADDR_EN}. Convert to CSV.
+p081	mixed	{NAME_ZH}（{EMAIL}）报告：{PROJECT} 的 staging 在 {IP} 上，admin 密码 {PASSWORD}
+p084	mixed	{FIRST_EN}, 你上次说的 {ORG_ZH} 那个项目叫什么来着？好像是 {PROJECT}
+p087	mixed	我老婆 {NAME_ZH} 的手机 {PHONE_CN} 收到一条短信说中奖了，是诈骗吗？
+p088	mixed	{NAME_EN} 先生的签证材料里需要中国身份证 {CN_ID} 的复印件吗？
+p090	mixed	帮我生成测试数据替换掉真实数据：{"name":"{NAME_ZH}","id":"{CN_ID}","card":"{CARD}"}

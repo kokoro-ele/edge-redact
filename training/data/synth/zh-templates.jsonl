@@ -1,0 +1,519 @@
+{"id": "s0001", "lang": "zh", "text": "亲，您好，订单{ORDER}的退款已经提交了哈，预计3-5个工作日原路退回到尾号{CARD}的卡上，{NAME_ZH}女士请注意查收～", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0002", "lang": "zh", "text": "工单备注：买家说收到的货跟图片不一样，sku是{SKU}，要求退货退款，已同意，退货地址发他了，等寄回再处理", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0003", "lang": "mixed", "text": "hi，我是{NAME_EN}，order {ORDER} 一直显示in transit，我的邮箱{EMAIL}，地址是{ADDR_EN}，麻烦帮查下到哪了？？急用啊", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0004", "lang": "zh", "text": "{SURNAME_ZH}总那边的大客户订单{ORDER}出问题了，对接人{NAME_ZH}，手机{PHONE_CN}，公司{ORG_ZH}，收货地址{ADDR_ZH}，说箱子都压扁了，赶紧安排补发！", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0005", "lang": "zh", "text": "系统提示：退款接口超时，耗时{MS}ms，工单{UID}自动重试中，app版本{VER}，时间{TS}，暂时不用人工介入", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0006", "lang": "zh", "text": "顾客反映买的那本书里{FICT}那章印刷重影，看不清字，订单{ORDER}，想换一本新的，不要退款，帮忙登记下哈", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0007", "lang": "mixed", "text": "退款失败了。。客户{NAME_ZH}说银行卡{CARD}已经注销了，要改成退到支付宝，账号就是手机号{PHONE_CN}，身份证{CN_ID}核实过了，ok可以操作", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0008", "lang": "zh", "text": "物流投诉：快递员没打电话就直接放驿站了，客户很不满，单号{ORDER}，已跟快递公司反馈，补偿5元无门槛券，客户接受，结单", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0009", "lang": "mixed", "text": "跨境件客诉：{FIRST_EN} {LAST_EN}，US号码{PHONE_US}，包裹卡清关一周了，订单{ORDER}，tracking一直不更新，已发邮件到{EMAIL}说明情况，等海关回复再跟她说", "source": "zh-00-0-0", "model": "claude-opus-5-5"}
+{"id": "s0010", "lang": "mixed", "text": "Ticket #{ORDER} 已升级至二线处理。\n客户：{NAME_EN}\n联系电话：{PHONE_US}\n收货地址：{ADDR_EN}\n问题描述：包裹显示已签收，但客户称未收到，要求补发或退款。", "source": "zh-00-1-1", "model": "claude-opus-5-5"}
+{"id": "s0011", "lang": "zh", "text": "您好，订单{ORDER}的退款申请已审核通过，退款金额已于{TS}发起，请耐心等待银行处理。如有疑问，可在App内提交新的工单。", "source": "zh-00-1-1", "model": "claude-opus-5-5"}
+{"id": "s0012", "lang": "zh", "text": "经核查，{ORG_ZH}配送站于{TS}将包裹交由快递员派送，收件人登记为{NAME_ZH}，地址为{ADDR_ZH}。客户称当日家中无人，签收记录存疑，现已转交风控部门复核。", "source": "zh-00-1-1", "model": "claude-opus-5-5"}
+{"id": "s0013", "lang": "mixed", "text": "系统通知：退款服务 refund-service {VER} 已上线，修复了部分订单（如{ORDER}）重复退款的问题。本次更新不涉及用户数据变更，平均响应时间降至{MS}毫秒。", "source": "zh-00-1-1", "model": "claude-opus-5-5"}
+{"id": "s0014", "lang": "zh", "text": "{SURNAME_ZH}总您好，贵司{ORG_ZH}批量采购的商品{SKU}共{INT}件中有部分破损，我方已安排专人对接。售后专员{NAME_ZH}将于今日内与您联系，电话{PHONE_CN}。", "source": "zh-00-1-1", "model": "claude-opus-5-5"}
+{"id": "s0015", "lang": "zh", "text": "客户咨询：所购图书中主角{FICT}的插画页缺失，是否属于印刷质量问题？答复：经确认该批次（批号{UID}）存在装订瑕疵，可申请无理由换货，换货单号为{ORDER}。", "source": "zh-00-1-1", "model": "claude-opus-5-5"}
+{"id": "s0016", "lang": "mixed", "text": "为完成实名退款核验，请客户{NAME_ZH}提供身份证号{CN_ID}及注册邮箱{EMAIL}。注：客服人员不会以任何理由索要您的登录密码，请勿向他人透露。", "source": "zh-00-1-1", "model": "claude-opus-5-5"}
+{"id": "s0017", "lang": "zh", "text": "物流投诉处理结果：经与承运商核实，运单{ORDER}因天气原因延误{INT}天，平台将按规则向客户补偿优惠券一张，券码{UUID}，有效期至{TS}。本工单现予关闭。", "source": "zh-00-1-1", "model": "claude-opus-5-5"}
+{"id": "s0018", "lang": "zh", "text": "【退款工单】\n工单号：{ORDER}\n客户姓名：{NAME_ZH}\n联系电话：{PHONE_CN}\n退款原因：商品破损\n退款金额：{INT}元\n处理状态：待审核", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0019", "lang": "mixed", "text": "Ticket ID: {UID}\n客户：{SURNAME_ZH}女士\nEmail: {EMAIL}\n问题类型：物流延误\n快递单号：{ORDER}\n备注：客户称已等待{INT}天，要求加急处理并补偿。", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0020", "lang": "zh", "text": "| 工单号 | 订单号 | 问题类型 | 状态 |\n| {UID} | {ORDER} | 退货未入库 | 处理中 |\n| {UID} | {ORDER} | 退款超时 | 已关闭 |", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0021", "lang": "zh", "text": "收件人：{NAME_ZH}，收货地址：{ADDR_ZH}，手机：{PHONE_CN}。\n投诉内容：包裹显示已签收但本人未收到，请核实派送员签收记录。", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0022", "lang": "mixed", "text": "Refund Request\nName: {NAME_EN}\nPhone: {PHONE_US}\nShipping Address: {ADDR_EN}\nCard (last used): {CARD}\nReason: Wrong item received, SKU {SKU}\n客服备注：已联系{FIRST_EN}，同意原路退回。", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0023", "lang": "zh", "text": "系统日志：\n时间：{TS}\n工单：{UID}\n动作：自动退款触发\n订单：{ORDER}\n商品：{SKU}\n退款接口版本：{VER}\n耗时：{MS}ms\n结果：成功", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0024", "lang": "zh", "text": "商家：{ORG_ZH}\n对接人：{SURNAME_ZH}总\n客户：{NAME_ZH}（身份证：{CN_ID}）\n纠纷说明：客户申请仅退款，商家要求先退货。平台判定：支持退货退款，运费由商家承担。", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0025", "lang": "zh", "text": "物流投诉单\n快递公司：顺风速运\n运单号：{ORDER}\n问题：外包装破损，内含商品《{FICT}传》典藏版书角受损\n处理建议：补发一套，原件无需寄回。", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0026", "lang": "mixed", "text": "升级工单 Escalation\n- Ticket: {UID}\n- 客户: {NAME_EN} / {EMAIL}\n- 卖家: {ORG_EN}\n- 订单号: {ORDER}\n- 跟进人: {NAME_ZH}老师\n说明：客户第{INT}次投诉，退款仍未到账，请财务今日内回复。", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0027", "lang": "zh", "text": "退款状态查询结果：\n订单号：{ORDER}\n申请时间：{TS}\n当前节点：仓库质检中\n预计完成：{INT}个工作日内\n如有疑问请在工单{UID}下留言，勿重复提交。", "source": "zh-00-2-2", "model": "claude-opus-5-5"}
+{"id": "s0028", "lang": "zh", "text": "{NAME_ZH}你好，入职材料还差身份证复印件，号码{CN_ID}对一下哈，银行卡{CARD}也发我下，工资要用", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0029", "lang": "zh", "text": "{SURNAME_ZH}总说新来的那个{NAME_ZH}明天报到，手机{PHONE_CN}，你帮忙建个工号吧，就用{UID}", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0030", "lang": "mixed", "text": "HR这边核对下：英文名{NAME_EN}，邮箱{EMAIL}，紧急联系人电话{PHONE_US}，没问题的话我就提交到系统了哈", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0031", "lang": "zh", "text": "入职表模板更新到{VER}了，大家别用旧的哈，旧版字段对不上，系统会报错", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0032", "lang": "mixed", "text": "{FIRST_EN}的offer letter地址写错了，应该是{ADDR_EN}，不是之前那个。另外他SSN是{SSN}，背调要用，别外传", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0033", "lang": "zh", "text": "体检报告收到没？{NAME_ZH}老师说已经寄了，快递单{ORDER}，寄到{ADDR_ZH}，应该今天到", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0034", "lang": "zh", "text": "今天一共入职{INT}个人，工牌都做好了，下午两点在三楼培训室集合，记得带笔", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0035", "lang": "mixed", "text": "新人OA账号开好了，用户名{EMAIL}，初始密码{PASSWORD}，第一次登陆记得改哦，{ORG_ZH}那边的权限我明天再申", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0036", "lang": "zh", "text": "员工手册里那个例子人物{FICT}不用改名吧？就是个虚构的，跟真人没关系，编号{SKU}那页", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0037", "lang": "mixed", "text": "HRIS导出的表第{INT}行乱码了，时间戳{TS}那批，可能是编码问题，我先回滚到{VER}再试试", "source": "zh-01-0-3", "model": "claude-opus-5-5"}
+{"id": "s0038", "lang": "zh", "text": "您好，{NAME_ZH}：\n欢迎加入{ORG_ZH}。请于入职当日携带身份证原件（号码 {CN_ID}）及银行卡（卡号 {CARD}）至人力资源部办理手续，联系电话 {PHONE_CN}。", "source": "zh-01-1-4", "model": "claude-opus-5-5"}
+{"id": "s0039", "lang": "mixed", "text": "Onboarding checklist for {NAME_EN}:\n1. Work email: {EMAIL}\n2. Emergency contact: {PHONE_US}\n3. Home address: {ADDR_EN}\n请于 {TS} 前在系统中完成确认。", "source": "zh-01-1-4", "model": "claude-opus-5-5"}
+{"id": "s0040", "lang": "zh", "text": "关于入职材料提交流程的说明：\n本系统当前版本为 {VER}，工单编号 {ORDER} 已归档。如遇上传失败，请记录错误码 {INT} 并联系系统管理员。", "source": "zh-01-1-4", "model": "claude-opus-5-5"}
+{"id": "s0041", "lang": "mixed", "text": "{SURNAME_ZH}总，新员工{NAME_ZH}（工号 {UID}）的背景调查已完成，前雇主{ORG_EN}的HR {FIRST_EN} {LAST_EN}已回复确认，邮箱{EMAIL}。", "source": "zh-01-1-4", "model": "claude-opus-5-5"}
+{"id": "s0042", "lang": "zh", "text": "培训材料中的案例人物{FICT}仅为虚构角色，用于演示员工信息登记表的填写规范，请勿与真实员工信息混淆。表单模板编号：{SKU}。", "source": "zh-01-1-4", "model": "claude-opus-5-5"}
+{"id": "s0043", "lang": "zh", "text": "入职信息核对表\n姓名：{NAME_ZH}\n证件号码：{CN_ID}\n手机：{PHONE_CN}\n工资卡：{CARD}\n所属项目：{PROJECT}\n请本人签字确认后交回。", "source": "zh-01-1-4", "model": "claude-opus-5-5"}
+{"id": "s0044", "lang": "zh", "text": "本季度共办理入职{INT}人，材料齐全率达到预期。系统同步记录编号{UUID}，平均处理耗时{MS}毫秒，详见附件报表（校验值 {SHA}）。", "source": "zh-01-1-4", "model": "claude-opus-5-5"}
+{"id": "s0045", "lang": "mixed", "text": "Dear {NAME_EN}, 为完成美国分公司的薪资登记，请提供您的 SSN（{SSN}）及当前住址 {ADDR_EN}。如需协助，请致电 {PHONE_US} 联系 {ORG_EN} HR 团队。", "source": "zh-01-1-4", "model": "claude-opus-5-5"}
+{"id": "s0046", "lang": "zh", "text": "【入职信息登记表】\n姓名：{NAME_ZH}\n身份证号：{CN_ID}\n手机：{PHONE_CN}\n现住址：{ADDR_ZH}\n紧急联系人：{NAME_ZH}（{PHONE_CN}）", "source": "zh-01-2-5", "model": "claude-opus-5-5"}
+{"id": "s0047", "lang": "mixed", "text": "Employee Onboarding Form\nName: {NAME_EN} | Email: {EMAIL}\nPhone: {PHONE_US}\nSSN: {SSN}\nHome Address: {ADDR_EN}\n入职部门：{ORG_EN} 研发中心", "source": "zh-01-2-5", "model": "claude-opus-5-5"}
+{"id": "s0048", "lang": "mixed", "text": "| 工号 | 姓名 | 邮箱 | 直属上级 |\n| {UID} | {NAME_ZH} | {EMAIL} | {SURNAME_ZH}经理 |\n| {UID} | {FIRST_EN} {LAST_EN} | {EMAIL} | {NAME_EN} |", "source": "zh-01-2-5", "model": "claude-opus-5-5"}
+{"id": "s0049", "lang": "zh", "text": "背景调查回执\n候选人：{NAME_ZH}女士\n前雇主：{ORG_ZH}\n证明人：{SURNAME_ZH}先生，电话{PHONE_CN}\n结论：任职经历属实。", "source": "zh-01-2-5", "model": "claude-opus-5-5"}
+{"id": "s0050", "lang": "zh", "text": "入职材料清单（模板版本 {VER}）\n1. 劳动合同 ×2\n2. 学历证书复印件\n3. 离职证明\n4. 体检报告\n提交截止：{TS}，批次号 {INT}。", "source": "zh-01-2-5", "model": "claude-opus-5-5"}
+{"id": "s0051", "lang": "mixed", "text": "HRIS 同步日志：batch_id={UUID}, records={INT}, cost={MS}ms, status=OK\n下一次同步时间：{TS}，服务端口 {PORT}，host={LOCALIP}", "source": "zh-01-2-5", "model": "claude-opus-5-5"}
+{"id": "s0052", "lang": "zh", "text": "员工手册培训考核表\n课程编号：{SKU}\n案例角色：{FICT}（虚构人物，用于情景模拟）\n及格线：{INT}分\n考核系统版本：{VER}", "source": "zh-01-2-5", "model": "claude-opus-5-5"}
+{"id": "s0053", "lang": "mixed", "text": "体检预约单 订单号：{ORDER}\n套餐：入职基础套餐\n预约时间：{TS}\n凭证哈希：{SHA}\n如需改期请联系 HR 服务台，勿回复本邮件。", "source": "zh-01-2-5", "model": "claude-opus-5-5"}
+{"id": "s0054", "lang": "zh", "text": "喂 是{NAME_ZH}家属吗，明天上午挂的{SURNAME_ZH}主任的号哈，记得带身份证{CN_ID}，八点前到门诊二楼取号", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0055", "lang": "mixed", "text": "刚在app上挂了号，订单号{ORDER}，结果显示待支付？？我卡{CARD}明明扣钱了啊，客服电话{PHONE_CN}一直打不通", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0056", "lang": "zh", "text": "{SURNAME_ZH}医生你好，我是上周来看胃的那个，{NAME_ZH}，报告出来没 我手机{PHONE_CN}，有啥结果直接打给我就行", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0057", "lang": "zh", "text": "复诊提醒：您预约的心内科门诊时间为{TS}，请提前15分钟到达，过号作废需重新挂号，谢谢配合", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0058", "lang": "mixed", "text": "病历系统又崩了，{VER}版本更新完就登不上，报错码{HEX}，谁跟信息科说一下啊 下午还有三十多个号", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0059", "lang": "mixed", "text": "Dr. {LAST_EN}的英文病历我翻好了，发你邮箱{EMAIL}了，患者{NAME_EN}住{ADDR_EN}，回国后要转到{ORG_ZH}继续治疗", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0060", "lang": "zh", "text": "妈 你那个化验单我拍给张阿姨看了，她说没事儿，就是血糖有点高，下礼拜再去抽个血，号我帮你挂好了", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0061", "lang": "zh", "text": "{NAME_ZH}老师，您儿子的住院押金还差{INT}块，住院号{UID}，交费窗口在一楼东头，微信支付宝都行，家住{ADDR_ZH}的话可以申请异地医保", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0062", "lang": "mixed", "text": "这病人说自己像小说里的{FICT}一样天天失眠哈哈，开了点药，处方编号{ORDER}，药房那边说{SKU}缺货要换别的", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0063", "lang": "mixed", "text": "护士站电话改了啊，夜班找人直接打分机{INT}，别再打以前那个了，排班表放在共享盘 v{VER} 那个文件夹里", "source": "zh-02-0-6", "model": "claude-opus-5-5"}
+{"id": "s0064", "lang": "zh", "text": "患者{NAME_ZH}，身份证号{CN_ID}，已于{TS}完成心内科初诊挂号，挂号单号{ORDER}。请于就诊前三十分钟携带有效证件至门诊二楼候诊。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0065", "lang": "zh", "text": "{SURNAME_ZH}主任：您好！患者{NAME_ZH}（联系电话：{PHONE_CN}）的复查结果已上传至院内系统，病历编号{UID}，烦请审阅后给出下一步治疗意见。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0066", "lang": "mixed", "text": "Dear Dr. {LAST_EN},\n患者{NAME_EN}的转诊申请已由{ORG_ZH}提交，联系邮箱{EMAIL}，美国联系电话{PHONE_US}。请确认是否接收该患者至贵院国际医疗部。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0067", "lang": "zh", "text": "关于门诊信息系统升级的通知：自{TS}起，挂号模块将升级至{VER}版本，预计停机{INT}分钟。升级期间请各科室改用纸质登记，系统恢复后统一补录。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0068", "lang": "mixed", "text": "病历归档提醒：本月共有{INT}份住院病历未完成首页填写，请各病区于{TS}前补齐。系统工单号{ORDER}，接口版本{VER}，如遇异常请联系信息科。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0069", "lang": "zh", "text": "{SURNAME_ZH}老师，您好。随附患者{NAME_ZH}的医保结算明细，医保卡关联银行卡号{CARD}，家属{NAME_ZH}已签署知情同意书，请予核对盖章。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0070", "lang": "mixed", "text": "健康宣教材料说明：本册以虚构患者{FICT}为例，介绍糖尿病日常管理要点，内容不涉及真实病例。印刷批次{SKU}，修订版{VER}，可于各护士站领取。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0071", "lang": "mixed", "text": "致{ORG_EN}理赔部：\n被保险人{NAME_EN}，SSN {SSN}，于本院接受手术治疗，住院号{UID}。相关诊断证明及费用清单已寄送至{ADDR_EN}，请查收。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0072", "lang": "zh", "text": "门诊预约规则：普通号可提前{INT}天预约，专家号须实名登记；同一患者每日限挂{INT}个科室。取消预约请在就诊前{INT}小时内完成，否则计入爽约记录。", "source": "zh-02-1-7", "model": "claude-opus-5-5"}
+{"id": "s0073", "lang": "zh", "text": "挂号单\n患者姓名：{NAME_ZH}\n身份证号：{CN_ID}\n联系电话：{PHONE_CN}\n科室：心内科  号序：{INT}\n挂号时间：{TS}", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0074", "lang": "mixed", "text": "Patient: {NAME_EN} | DOB: 见证件 | Phone: {PHONE_US} | Email: {EMAIL}\n就诊卡号：{UID}，预约单号 {ORDER}，请于 {TS} 前到二楼分诊台签到。", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0075", "lang": "zh", "text": "病历摘要\n主治医生：{SURNAME_ZH}主任\n患者：{NAME_ZH}（家属：{NAME_ZH}，电话：{PHONE_CN}）\n现住址：{ADDR_ZH}\n诊断：急性胃肠炎，建议复诊。", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0076", "lang": "zh", "text": "| 字段 | 值 |\n| 处方编号 | {ORDER} |\n| 药品SKU | {SKU} |\n| 数量 | {INT} 盒 |\n| 开具时间 | {TS} |\n| 系统版本 | {VER} |", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0077", "lang": "mixed", "text": "HIS 同步日志：record_id={UUID}, latency={MS}ms, host={LOCALIP}:{PORT}, status=OK\n备注：本次同步无患者信息变更。", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0078", "lang": "mixed", "text": "Referral Form\nReferring doctor: Dr. {LAST_EN}\nPatient name: {FIRST_EN} {LAST_EN}\nInsurance SSN: {SSN}\nHospital: {ORG_EN}, {ADDR_EN}\n转诊原因：需进一步做核磁共振检查。", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0079", "lang": "zh", "text": "健康宣教资料第{INT}期\n案例人物：{FICT}（虚构）\n内容：讲述{FICT}如何通过规律作息控制血压。\n资料编号：{UID}，版本：{VER}", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0080", "lang": "zh", "text": "预约变更通知\n姓名：{NAME_ZH}女士\n原预约：{TS}\n新预约：{TS}\n确认短信已发送至{PHONE_CN}，邮件已发送至{EMAIL}。\n订单号：{ORDER}", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0081", "lang": "mixed", "text": "科室排班表\n周一 上午 | 门诊A | 号源 {INT}\n周二 下午 | 门诊B | 号源 {INT}\n导出文件校验：sha={SHA}，生成于 {TS}，模板版本 {VER}", "source": "zh-02-2-8", "model": "claude-opus-5-5"}
+{"id": "s0082", "lang": "zh", "text": "喂？我想问下信用卡账单的事，手机号{PHONE_CN}，身份证{CN_ID}，你帮我查查上个月是不是多扣了钱，我记得没刷那么多啊", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0083", "lang": "mixed", "text": "{SURNAME_ZH}总您好，您申请的白金卡已经审批通过了哈，卡片会寄到{ADDR_ZH}，预计3到5个工作日，有问题可以发邮件到{EMAIL}或者直接回电", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0084", "lang": "zh", "text": "客户：我那个分期能不能提前还啊\n客服：可以的亲，您登陆APP在“我的账单”里点提前还款就行，手续费按剩余期数算哈", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0085", "lang": "mixed", "text": "客服：工单号{ORDER}已经帮您提交了，处理结果会在{INT}个工作日内短信通知，APP版本请升级到{VER}以上，不然有时候显示不出来", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0086", "lang": "mixed", "text": "Hi，我是{NAME_EN}，在国外用卡被拒了，美国这边号码是{PHONE_US}，麻烦帮我开下境外交易，卡号{CARD}，急！！", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0087", "lang": "zh", "text": "你们这积分兑换怎么回事啊，我换了个{FICT}的联名公仔，订单{ORDER}显示已发货，物流一直不动，都{INT}天了", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0088", "lang": "zh", "text": "客服：为了核实身份，麻烦报下开户人姓名和预留手机\n客户：{NAME_ZH}，{PHONE_CN}，哦不对那是我老婆的，我的是{PHONE_CN}", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0089", "lang": "zh", "text": "客户：我网银密码老是输错，被锁了\n客服：别急哈，锁定{INT}小时后自动解开，或者带身份证去柜台重置，电话里不能帮您改密码的哦", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0090", "lang": "mixed", "text": "{SURNAME_ZH}女士，您在{ORG_ZH}办的那笔房贷，这月还款日是{TS}，账户余额好像不太够，记得提前存一下哈，有啥不清楚的打我们热线就行", "source": "zh-03-0-9", "model": "claude-opus-5-5"}
+{"id": "s0091", "lang": "mixed", "text": "Dear {NAME_EN}, your credit card ending in {CARD} has been temporarily frozen due to suspicious activity. 请尽快联系 {PHONE_US} 或发送邮件至{EMAIL}办理解冻。", "source": "zh-03-1-10", "model": "claude-opus-5-5"}
+{"id": "s0092", "lang": "zh", "text": "关于您反映的分期手续费问题，我行已受理，工单编号为{ORDER}，预计将在{INT}个工作日内回复处理结果。感谢您的耐心等待。", "source": "zh-03-1-10", "model": "claude-opus-5-5"}
+{"id": "s0093", "lang": "mixed", "text": "系统通知：手机银行 App 已升级至 {VER} 版本，新增账单分期与积分兑换功能。本次更新时间为{TS}，请用户及时更新。", "source": "zh-03-1-10", "model": "claude-opus-5-5"}
+{"id": "s0094", "lang": "zh", "text": "客户{NAME_ZH}（证件号{CN_ID}）于{TS}申请挂失借记卡，卡号{CARD}，补卡将邮寄至{ADDR_ZH}。经办人：{NAME_ZH}。", "source": "zh-03-1-10", "model": "claude-opus-5-5"}
+{"id": "s0095", "lang": "zh", "text": "温馨提示：本行工作人员不会以任何理由索取您的密码或短信验证码。如遇可疑来电，请立即挂断并拨打官方客服热线核实。", "source": "zh-03-1-10", "model": "claude-opus-5-5"}
+{"id": "s0096", "lang": "mixed", "text": "您好，{FIRST_EN} {LAST_EN} 先生。您在{ORG_EN}的消费交易（订单号{ORDER}，金额{INT}元）已退款至尾号{CARD}的卡片，请注意查收。", "source": "zh-03-1-10", "model": "claude-opus-5-5"}
+{"id": "s0097", "lang": "zh", "text": "关于您咨询的积分兑换活动，本期可兑换礼品编号为{SKU}，所需积分{INT}分。活动截止时间为{TS}，逾期积分将自动清零。", "source": "zh-03-1-10", "model": "claude-opus-5-5"}
+{"id": "s0098", "lang": "zh", "text": "客户姓名：{NAME_ZH}\n证件号码：{CN_ID}\n联系电话：{PHONE_CN}\n业务类型：信用卡挂失\n受理时间：{TS}", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0099", "lang": "mixed", "text": "工单号：{ORDER} | 坐席：{SURNAME_ZH}经理 | 客户：{NAME_ZH}女士 | 卡号：{CARD} | 状态：pending review", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0100", "lang": "zh", "text": "交易流水号：{ORDER}\n交易金额：{INT}元\n商户编号：{SKU}\n处理结果：已退款\n系统版本：{VER}", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0101", "lang": "mixed", "text": "Customer Name: {NAME_EN}\nCard No.: {CARD}\nBilling Address: {ADDR_EN}\nPhone: {PHONE_US}\n备注：客户要求将账单寄至新地址，已核实SSN后四位（{SSN}）。", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0102", "lang": "zh", "text": "| 序号 | 客户 | 手机号 | 邮箱 | 申请额度 |\n| {INT} | {NAME_ZH}先生 | {PHONE_CN} | {EMAIL} | {INT}元 |", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0103", "lang": "mixed", "text": "会话ID：{UUID}\n渠道：App在线客服\n问题分类：积分兑换\n响应耗时：{MS}ms\n满意度：5星\n备注：客户咨询积分活动规则，未涉及账户信息。", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0104", "lang": "zh", "text": "开户申请表\n姓名：{NAME_ZH}；身份证：{CN_ID}；单位：{ORG_ZH}；住址：{ADDR_ZH}；推荐人：{NAME_ZH}", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0105", "lang": "mixed", "text": "风控告警 alert_id={UID}, rule_ver={VER}, ts={TS}\n触发原因：同一设备{INT}次失败登录\n来源IP：{IP}\n账户邮箱：{EMAIL}\n处理人：{SURNAME_ZH}总已确认冻结。", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0106", "lang": "zh", "text": "投诉记录：订单号{ORDER}，客户反映分期手续费计算有误。\n核查结论：费率按{INT}期计算，与合同一致。\n回访时间：{TS}，回访结果：客户接受解释。", "source": "zh-03-2-11", "model": "claude-opus-5-5"}
+{"id": "s0107", "lang": "zh", "text": "{SURNAME_ZH}哥，房租这月还是转到{CARD}哈，合同上写的{ADDR_ZH}那套，押一付三别忘了，有事打我{PHONE_CN}", "source": "zh-04-0-12", "model": "claude-opus-5-5"}
+{"id": "s0108", "lang": "zh", "text": "物业通知：明天{TS}停水，各位业主提前储水，有问题找物业前台，别在群里刷屏了哈", "source": "zh-04-0-12", "model": "claude-opus-5-5"}
+{"id": "s0109", "lang": "mixed", "text": "房东{NAME_ZH}，身份证号{CN_ID}，租客{NAME_EN}（passport看附件），租期一年，月租{INT}元，水电自理，合同编号{ORDER}", "source": "zh-04-0-12", "model": "claude-opus-5-5"}
+{"id": "s0110", "lang": "zh", "text": "{SURNAME_ZH}女士你好，你家阳台漏水漏到楼下了，楼下{NAME_ZH}投诉好几次了，麻烦尽快处理下，电话{PHONE_CN}", "source": "zh-04-0-12", "model": "claude-opus-5-5"}
+{"id": "s0111", "lang": "zh", "text": "缴费单号{ORDER}，物业费{INT}块已经交了，收据回头补，系统版本{VER}老是卡，别催了", "source": "zh-04-0-12", "model": "claude-opus-5-5"}
+{"id": "s0112", "lang": "mixed", "text": "Hi {FIRST_EN}，合同pdf发你邮箱{EMAIL}了，签完拍照回我就行，钥匙放{ADDR_ZH}门卫那，找王师傅...哦不对找{NAME_ZH}拿", "source": "zh-04-0-12", "model": "claude-opus-5-5"}
+{"id": "s0113", "lang": "zh", "text": "群公告：电梯维保{TS}到{TS}，期间走楼梯，带娃的注意安全，工单号{ORDER}，有啥事明天再说", "source": "zh-04-0-12", "model": "claude-opus-5-5"}
+{"id": "s0114", "lang": "zh", "text": "我看那剧里{FICT}租的房子跟咱这户型一模一样哈哈，就是没人家装修好，房号{INT}室，你们觉得像不", "source": "zh-04-0-12", "model": "claude-opus-5-5"}
+{"id": "s0115", "lang": "zh", "text": "房屋租赁合同\n出租方（甲方）：{NAME_ZH}，身份证号：{CN_ID}，联系电话：{PHONE_CN}\n承租方（乙方）：{NAME_ZH}，身份证号：{CN_ID}\n租赁房屋坐落于{ADDR_ZH}，租期自{TS}起计。", "source": "zh-04-1-13", "model": "claude-opus-5-5"}
+{"id": "s0116", "lang": "zh", "text": "尊敬的各位业主：\n因小区二次供水设备检修，本楼栋将于{TS}暂停供水约{INT}小时，请提前做好储水准备。给您带来的不便，敬请谅解。\n物业服务中心", "source": "zh-04-1-13", "model": "claude-opus-5-5"}
+{"id": "s0117", "lang": "zh", "text": "关于电梯年度检验的通知\n本小区{INT}号楼电梯将于{TS}进行年度安全检验，检验期间暂停使用，预计耗时{INT}分钟。检验报告编号：{ORDER}。请各位住户合理安排出行。", "source": "zh-04-1-13", "model": "claude-opus-5-5"}
+{"id": "s0118", "lang": "mixed", "text": "物业管理系统升级公告\n本物业App将于{TS}升级至{VER}版本，升级期间缴费、报修功能暂停，工单号{ORDER}等历史记录不受影响。如遇问题请拨打服务热线，客服工号{UID}将为您处理。", "source": "zh-04-1-13", "model": "claude-opus-5-5"}
+{"id": "s0119", "lang": "zh", "text": "温馨提示：近期有不法分子冒充物业人员上门推销，本物业工作人员均佩戴统一工牌，工牌编号格式为{UID}。如有疑问，请至物业前台核实，切勿轻信。", "source": "zh-04-1-13", "model": "claude-opus-5-5"}
+{"id": "s0120", "lang": "zh", "text": "催缴通知\n{NAME_ZH}女士：您名下房屋（{ADDR_ZH}）的物业费截至{TS}尚欠{INT}元，账单编号{ORDER}。请于{INT}日内缴清，如已缴纳请忽略。经办人：{SURNAME_ZH}经理，{PHONE_CN}。", "source": "zh-04-1-13", "model": "claude-opus-5-5"}
+{"id": "s0121", "lang": "zh", "text": "房屋租赁合同\n出租方（甲方）：{NAME_ZH}\n身份证号：{CN_ID}\n联系电话：{PHONE_CN}\n承租方（乙方）：{NAME_ZH}\n身份证号：{CN_ID}\n房屋地址：{ADDR_ZH}", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0122", "lang": "zh", "text": "【物业通知】各位业主：本小区将于{TS}起对二号楼电梯进行年检，预计停运{INT}小时，工单编号{ORDER}。请提前安排出行，敬请谅解。物业服务中心", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0123", "lang": "mixed", "text": "Tenant Info | 租客信息\nName: {NAME_EN}\nPhone: {PHONE_US}\nEmail: {EMAIL}\n紧急联系人：{NAME_ZH}（{PHONE_CN}）\n押金支付卡号：{CARD}", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0124", "lang": "zh", "text": "缴费明细 | 房号 | 月份 | 金额\n{SKU} | {INT}月 | {INT}元\n{SKU} | {INT}月 | {INT}元\n备注：账单流水号{ORDER}，系统版本{VER}自动生成。", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0125", "lang": "zh", "text": "维修登记表\n报修人：{SURNAME_ZH}女士\n房间：{ADDR_ZH}\n联系方式：{PHONE_CN}\n问题描述：卫生间漏水，已联系{SURNAME_ZH}师傅，预约时间{TS}。", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0126", "lang": "mixed", "text": "合同编号：{ORDER}\n甲方代理：{ORG_ZH}，经办人{NAME_ZH}\n乙方：{NAME_EN}（Passport/SSN: {SSN}）\nMailing address: {ADDR_EN}\n签署日期：{TS}", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0127", "lang": "zh", "text": "停水通知\n时间：{TS}\n范围：{INT}号楼至{INT}号楼\n原因：市政管网检修，工单号{ORDER}\n如有疑问请拨打物业前台分机{INT}。", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0128", "lang": "zh", "text": "续租确认单\n房东：{SURNAME_ZH}总（{ORG_ZH}）\n租客：{NAME_ZH}，电话{PHONE_CN}，邮箱{EMAIL}\n续租期限：{INT}个月；月租：{INT}元；租金收款账户：{CARD}。", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0129", "lang": "zh", "text": "公告｜小区读书角本月推荐：《{FICT}的远方》，讲述{FICT}在老城区租房生活的故事。借阅登记号{UID}，归还期限{TS}，系统版本{VER}。", "source": "zh-04-2-14", "model": "claude-opus-5-5"}
+{"id": "s0130", "lang": "zh", "text": "收件人{NAME_ZH}，电话{PHONE_CN}，地址{ADDR_ZH}，麻烦放门卫那 别打电话了 白天不在家", "source": "zh-05-0-15", "model": "claude-opus-5-5"}
+{"id": "s0131", "lang": "mixed", "text": "寄件人:{NAME_EN} 电话{PHONE_US}\n收:{NAME_ZH}，{ADDR_ZH}，{PHONE_CN}\n备注：易碎品 轻拿轻放!!", "source": "zh-05-0-15", "model": "claude-opus-5-5"}
+{"id": "s0132", "lang": "zh", "text": "老板你家发货了没啊，订单{ORDER}都三天了还没物流信息，急用啊", "source": "zh-05-0-15", "model": "claude-opus-5-5"}
+{"id": "s0133", "lang": "mixed", "text": "tracking号{ORDER}一直显示派送中，SKU {SKU}那个，客服说系统{VER}版本有bug，明天再看看", "source": "zh-05-0-15", "model": "claude-opus-5-5"}
+{"id": "s0134", "lang": "mixed", "text": "地址改下哈 原来那个不对，新的是{ADDR_EN}，收件人{FIRST_EN} {LAST_EN}，邮箱{EMAIL}有问题联系我", "source": "zh-05-0-15", "model": "claude-opus-5-5"}
+{"id": "s0135", "lang": "zh", "text": "快递小哥说件丢了。。单号{ORDER}，里面是{FICT}的手办，赔多少啊这个，保价没买", "source": "zh-05-0-15", "model": "claude-opus-5-5"}
+{"id": "s0136", "lang": "zh", "text": "实名寄件要身份证，我填的{CN_ID}，名字{NAME_ZH}，电话{PHONE_CN}，你帮我核下有没写错的", "source": "zh-05-0-15", "model": "claude-opus-5-5"}
+{"id": "s0137", "lang": "zh", "text": "今天{TS}揽收的，预计{INT}天到，中转站卡住了，催一下吧 单号{ORDER}", "source": "zh-05-0-15", "model": "claude-opus-5-5"}
+{"id": "s0138", "lang": "zh", "text": "收件人：{NAME_ZH}\n联系电话：{PHONE_CN}\n收件地址：{ADDR_ZH}\n运单号：{ORDER}，请于签收时核对外包装是否完好。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0139", "lang": "mixed", "text": "寄件方：{ORG_ZH}；发货人：{NAME_ZH}（{PHONE_CN}）\n收件方：{ORG_EN}，Attn: {NAME_EN}，{ADDR_EN}，Tel: {PHONE_US}\n商品编码：{SKU}，数量：{INT}件。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0140", "lang": "zh", "text": "本批次快递面单模板已升级至{VER}版本，条码区域新增校验位，打印前请确认面单编号{ORDER}与系统记录一致。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0141", "lang": "mixed", "text": "Dear {FIRST_EN}，您的跨境包裹（Tracking No. {ORDER}）已完成清关。如需开具发票，请将收件人身份证号{CN_ID}及邮箱{EMAIL}回复至客服。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0142", "lang": "zh", "text": "关于运单{ORDER}的派送异常说明：因收件地址信息不完整，包裹已于{TS}退回始发转运中心，预计{INT}个工作日内重新安排派送。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0143", "lang": "zh", "text": "{SURNAME_ZH}总：贵司委托的{INT}件样品已由{NAME_ZH}代为签收，签收地址为{ADDR_ZH}，签收凭证请见附件。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0144", "lang": "mixed", "text": "系统通知：面单打印服务（build {VER}）于{TS}完成部署，接口响应耗时由{MS}ms降至{MS}ms，请求ID：{UUID}。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0145", "lang": "zh", "text": "图书订单{ORDER}包含《{FICT}传》精装本一册，商品编号{SKU}，已由仓库打包出库，请留意物流更新。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0146", "lang": "mixed", "text": "代收货款确认：收件人{NAME_ZH}，手机{PHONE_CN}，付款银行卡尾号对应卡号{CARD}；寄件单位{ORG_ZH}，经办人{NAME_EN}，Email：{EMAIL}。", "source": "zh-05-1-16", "model": "claude-opus-5-5"}
+{"id": "s0147", "lang": "zh", "text": "收件人：{NAME_ZH}\n电话：{PHONE_CN}\n地址：{ADDR_ZH}\n运单号：{ORDER}\n备注：请工作日送达，放门卫处即可。", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0148", "lang": "mixed", "text": "Sender: {NAME_EN} | Tel: {PHONE_US} | From: {ADDR_EN}\n收件人：{SURNAME_ZH}女士（{PHONE_CN}）\nTracking No.: {ORDER}，重量 {INT}kg", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0149", "lang": "zh", "text": "订单号：{ORDER}\n商品编码：{SKU}\n数量：{INT}\n发货时间：{TS}\n物流状态：已揽收，运输中", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0150", "lang": "mixed", "text": "| 运单号 | 收件人 | 手机 | 地址 |\n| {ORDER} | {NAME_ZH} | {PHONE_CN} | {ADDR_ZH} |\n| {ORDER} | {SURNAME_ZH}先生 | {PHONE_CN} | {ADDR_ZH} |", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0151", "lang": "zh", "text": "寄件单位：{ORG_ZH}\n联系人：{SURNAME_ZH}总，{PHONE_CN}\n收件人：{NAME_ZH}，身份证号{CN_ID}（实名寄递登记）\n件数：{INT}", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0152", "lang": "mixed", "text": "批次ID：{UUID}\n仓库节点：{LOCALIP}:{PORT}\n分拣系统版本：{VER}\n处理耗时：{MS}ms\n状态：OK，共 {INT} 件已出库", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0153", "lang": "mixed", "text": "Consignee: {FIRST_EN} {LAST_EN}\nCompany: {ORG_EN}\nEmail: {EMAIL}\nAddress: {ADDR_EN}\n代收货款：否；保价金额：{INT}元", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0154", "lang": "zh", "text": "签收记录\n时间：{TS}\n签收人：{NAME_ZH}（本人签收）\n派件员：{SURNAME_ZH}师傅，工号{UID}\n订单{ORDER}已完成。", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0155", "lang": "zh", "text": "商品名称：《{FICT}传》典藏版\nSKU：{SKU}\n订单号：{ORDER}\n包装规格：{INT}本/箱\n备注：书中角色{FICT}的周边赠品随箱附送。", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0156", "lang": "mixed", "text": "退货申请\n原订单：{ORDER}\n申请人：{NAME_ZH}；联系电话：{PHONE_CN}；邮箱：{EMAIL}\n退款账户：{CARD}\n取件地址：{ADDR_ZH}\n审核状态：pending", "source": "zh-05-2-17", "model": "claude-opus-5-5"}
+{"id": "s0157", "lang": "zh", "text": "@{NAME_ZH} 你昨天说的那个合同发我下呗，我这边急用，发我邮箱{EMAIL}就行，谢啦", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0158", "lang": "mixed", "text": "{SURNAME_ZH}总刚在群里问进度了。。{PROJECT}那边的deploy到底上没上啊，谁跟一下\n我看日志{TS}的时候还报错", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0159", "lang": "zh", "text": "订单号{ORDER}的货客户说还没收到，物流显示{TS}就签收了，谁去查下？？别又是快递乱签的", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0160", "lang": "mixed", "text": "测试环境db连不上了，有人动过配置吗{DBURL}，密码是不是被改成{PASSWORD}了，@{NAME_EN} help", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0161", "lang": "zh", "text": "明天下午开会的通知：地点改到{ADDR_ZH}三楼会议室，{NAME_ZH}老师和{NAME_ZH}都要来，别迟到哈", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0162", "lang": "mixed", "text": "新版本{VER}已经打包了，sha是{SHA}，大家拉下来自测下，有bug直接提issue，别在群里刷屏了哈哈", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0163", "lang": "zh", "text": "那个客户电话{PHONE_CN}，姓{SURNAME_ZH}，说是{ORG_ZH}的采购，{NAME_ZH}你回个电话吧我这会儿在外面不方便", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0164", "lang": "mixed", "text": "刚看了下监控，{LOCALIP}:{PORT}这个服务响应{MS}ms，有点慢啊，是不是又内存泄露了，谁晚上加个班看看", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0165", "lang": "mixed", "text": "报销的事儿：{NAME_EN}({ORG_EN})那边的发票抬头写错了，卡号{CARD}也对不上，财务{SURNAME_ZH}姐让重开，麻烦了", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0166", "lang": "zh", "text": "哈哈哈周末团建玩剧本杀，我抽到{FICT}，凶手居然是{FICT}，太离谱了吧，下次还约不", "source": "zh-06-0-18", "model": "claude-opus-5-5"}
+{"id": "s0167", "lang": "zh", "text": "各位好，系统已于今晨完成升级，当前版本为{VER}，构建哈希{SHA}。如在使用过程中发现异常，请在群内反馈并附上截图及时间戳{TS}。", "source": "zh-06-1-19", "model": "claude-opus-5-5"}
+{"id": "s0168", "lang": "mixed", "text": "{SURNAME_ZH}老师：测试环境数据库地址已更新为{DBURL}，账号沿用原有配置，临时密码为{PASSWORD}，请登录后立即修改。生产环境{IP}暂不开放。", "source": "zh-06-1-19", "model": "claude-opus-5-5"}
+{"id": "s0169", "lang": "zh", "text": "关于订单{ORDER}的退款事宜，财务部已完成审核，预计三个工作日内原路退回。商品编号{SKU}已办理下架，请仓储组知悉。", "source": "zh-06-1-19", "model": "claude-opus-5-5"}
+{"id": "s0170", "lang": "mixed", "text": "Dear all，项目{PROJECT}的API密钥已轮换，新密钥{SECRET}请勿外传；旧token {JWT} 将于今晚失效。如有调用失败，请联系{NAME_EN}（{PHONE_US}）。", "source": "zh-06-1-19", "model": "claude-opus-5-5"}
+{"id": "s0171", "lang": "zh", "text": "市场部提醒：新品宣传文案中的角色{FICT}为虚构人物，与现实人员无关。宣发排期共{INT}天，首轮投放预计于{TS}开始，请各组按计划推进。", "source": "zh-06-1-19", "model": "claude-opus-5-5"}
+{"id": "s0172", "lang": "mixed", "text": "运维通报：内网服务{LOCALIP}:{PORT}于今日凌晨出现响应延迟，峰值{MS}ms，工单编号{UID}，事件追踪ID {UUID}，错误码{HEX}。目前已恢复正常，后续将持续观察。", "source": "zh-06-1-19", "model": "claude-opus-5-5"}
+{"id": "s0173", "lang": "mixed", "text": "[群公告] 本周发布计划\n版本：{VER}\n上线时间：{TS}\n回滚包SHA：{SHA}\n负责模块：订单服务（端口{PORT}）\n请各位提前在测试环境 {LOCALIP} 验证。", "source": "zh-06-2-20", "model": "claude-opus-5-5"}
+{"id": "s0174", "lang": "mixed", "text": "{NAME_ZH}：数据库连接串先发群里，回头记得改\nDB：{DBURL}\n账号密码：admin / {PASSWORD}\n{NAME_EN}：收到，staging 的 IP 是 {IP} 吧？", "source": "zh-06-2-20", "model": "claude-opus-5-5"}
+{"id": "s0175", "lang": "zh", "text": "订单号：{ORDER}\nSKU：{SKU}\n数量：{INT}\n状态：已发货\n客服备注：用户反馈物流慢，已催仓库，耗时{MS}ms的接口超时问题另开单跟进。", "source": "zh-06-2-20", "model": "claude-opus-5-5"}
+{"id": "s0176", "lang": "mixed", "text": "客户信息（US）\nName: {FIRST_EN} {LAST_EN}\nPhone: {PHONE_US}\nSSN: {SSN}\nAddress: {ADDR_EN}\nCompany: {ORG_EN}\n@{NAME_ZH} 合同模板用英文版那份。", "source": "zh-06-2-20", "model": "claude-opus-5-5"}
+{"id": "s0177", "lang": "zh", "text": "剧本组分工表：\n第3集主角{FICT}的台词由编剧A改，\n反派{FICT}的戏份压缩到{INT}场，\n定稿版本号{VER}，大家别再改旧文件了。", "source": "zh-06-2-20", "model": "claude-opus-5-5"}
+{"id": "s0178", "lang": "mixed", "text": "{NAME_ZH}（{ORG_ZH}）：token过期了，新的贴这：{JWT}\n还有那个API secret：{SECRET}\n{SURNAME_ZH}女士：这种东西别发群里啊！！项目{PROJECT}的群人很多。", "source": "zh-06-2-20", "model": "claude-opus-5-5"}
+{"id": "s0179", "lang": "mixed", "text": "Bug记录\nID：{UUID}\n用户UID：{UID}\n错误码：{HEX}\n复现版本：{VER}\n日志时间：{TS}\n处理人：后端值班", "source": "zh-06-2-20", "model": "claude-opus-5-5"}
+{"id": "s0180", "lang": "mixed", "text": "卧槽又挂了，{TS} 开始 {IP}:{PORT} 一直超时，{SURNAME_ZH}工你看下是不是db连不上，日志里报 conn refused，连接串是 {DBURL}", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0181", "lang": "zh", "text": "告警：服务 {PROJECT} 响应延迟 {MS}ms，超过阈值。值班人{NAME_ZH}，电话{PHONE_CN}，半夜别打太多次哈他会骂人", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0182", "lang": "mixed", "text": "[ERROR] {TS} auth failed for user {EMAIL} from {IP}\n[WARN] token expired: {JWT}\n这个用户谁啊一直刷，{NAME_EN}你那边封一下ip?", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0183", "lang": "zh", "text": "重启完了，版本回滚到{VER}，pod {UID} 起来了，订单{ORDER}那个卡住的单子也恢复了，没啥事了先撤", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0184", "lang": "mixed", "text": "@{SURNAME_ZH}总 生产环境的key被人提交到git了…{SECRET} 已经轮换，commit {SHA} 记得revert，{ORG_ZH}那边要不要通知", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0185", "lang": "mixed", "text": "nginx 502 一堆，看了下 upstream {LOCALIP}:{PORT} 挂了，内存打满 OOM killed，trace id {UUID}，扩容下就行，不用升级", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0186", "lang": "mixed", "text": "昨晚排障记录：{FIRST_EN} {LAST_EN} 反馈 {ORG_EN} 的回调一直失败，查了是证书过期，他手机{PHONE_US}，邮箱{EMAIL}，今天跟进下吧", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0187", "lang": "zh", "text": "磁盘告警 used {INT}% ，/var/log 下面日志没清，跑个清理脚本，hash {HEX} 那个文件别删是备份", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0188", "lang": "mixed", "text": "测试账号密码给你：admin / {PASSWORD}，别外传啊。{NAME_ZH}老师说测试库地址是{DBURL}，跑完记的删数据", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0189", "lang": "mixed", "text": "压测脚本里的用户名用的{FICT}，不是真人别慌lol，SKU {SKU} 下单 {INT} 次，p99 {MS}ms，版本 {VER} 稳的一批", "source": "zh-07-0-21", "model": "claude-opus-5-5"}
+{"id": "s0190", "lang": "mixed", "text": "【告警】{TS} 生产集群节点 {IP} CPU 使用率持续超过 95%，已触发 P1 级别告警。值班负责人：{NAME_ZH}（{PHONE_CN}），请于 15 分钟内确认。", "source": "zh-07-1-22", "model": "claude-opus-5-5"}
+{"id": "s0191", "lang": "mixed", "text": "排障记录：{TS} 服务 {PROJECT} 升级至 {VER} 后，连接池报错 \"Connection refused\"。经排查，配置文件中 DB 地址 {DBURL} 的端口 {PORT} 被防火墙拦截，已由{SURNAME_ZH}工协调放行。", "source": "zh-07-1-22", "model": "claude-opus-5-5"}
+{"id": "s0192", "lang": "mixed", "text": "[ERROR] {TS} auth-service: token validation failed, user_id={UID}, request_id={UUID}, latency={MS}ms\n[WARN] {TS} retry exhausted, upstream={LOCALIP}:{PORT}\n备注：该故障与 {VER} 版本已知缺陷一致，无需升级处理。", "source": "zh-07-1-22", "model": "claude-opus-5-5"}
+{"id": "s0193", "lang": "mixed", "text": "安全事件通报：{TS} 发现代码仓库中误提交明文凭据，包括 API 密钥 {SECRET} 及数据库口令 {PASSWORD}。提交人 {NAME_EN}（{EMAIL}）已被通知，相关密钥须立即轮换。", "source": "zh-07-1-22", "model": "claude-opus-5-5"}
+{"id": "s0194", "lang": "zh", "text": "变更窗口说明：本次发布涉及 {INT} 个微服务，镜像摘要 {SHA}，计划于 {TS} 开始灰度。若错误率超过阈值，按回滚预案执行，回滚至 {VER}。", "source": "zh-07-1-22", "model": "claude-opus-5-5"}
+{"id": "s0195", "lang": "mixed", "text": "日志脱敏审计发现：{TS} 的 access.log 中出现未掩码的 Authorization 头 Bearer {JWT}，来源 IP {IP}。请{ORG_ZH}运维组排查日志中间件配置，确保敏感字段被过滤。", "source": "zh-07-1-22", "model": "claude-opus-5-5"}
+{"id": "s0196", "lang": "zh", "text": "巡检报告：磁盘 inode 使用率 {INT}%，进程 PID {INT} 占用句柄异常，内存地址 {HEX} 处发生段错误。压测脚本中的模拟用户“{FICT}”产生的请求均为测试流量，可忽略。", "source": "zh-07-1-22", "model": "claude-opus-5-5"}
+{"id": "s0197", "lang": "zh", "text": "故障复盘结论：{TS} 起缓存集群主从切换耗时 {MS} 毫秒，期间约 {INT} 次请求失败。改进措施：一、升级客户端至 {VER}；二、补充探活脚本；三、完善告警分级规则。", "source": "zh-07-1-22", "model": "claude-opus-5-5"}
+{"id": "s0198", "lang": "mixed", "text": "【告警】P1 | 服务: {PROJECT}-api\n时间: {TS}\n主机: {IP}:{PORT}\n现象: p99 延迟 {MS}ms，超阈值\n值班人: {NAME_ZH}（{PHONE_CN}）\n状态: 已认领", "source": "zh-07-2-23", "model": "claude-opus-5-5"}
+{"id": "s0199", "lang": "mixed", "text": "[{TS}] ERROR auth-service v{VER}: token verify failed, jwt={JWT}, src_ip={IP}, user_id={UID}\n处理人：{NAME_ZH}，备注：疑似泄露，已轮换 secret", "source": "zh-07-2-23", "model": "claude-opus-5-5"}
+{"id": "s0200", "lang": "mixed", "text": "| 时间 | 节点 | 错误码 | 耗时 |\n| {TS} | {LOCALIP}:{PORT} | 502 | {MS}ms |\n| {TS} | {LOCALIP}:{PORT} | 504 | {MS}ms |\n结论：上游 v{VER} 发布引起，已回滚至 commit {SHA}", "source": "zh-07-2-23", "model": "claude-opus-5-5"}
+{"id": "s0201", "lang": "zh", "text": "排障记录\n订单号：{ORDER}\n问题：支付回调丢失，SKU {SKU} 库存未扣减\n日志片段：trace={HEX} retry={INT}\n根因：消息队列积压，已扩容，无用户数据受影响。", "source": "zh-07-2-23", "model": "claude-opus-5-5"}
+{"id": "s0202", "lang": "mixed", "text": "[WARN] {TS} config leak detected in repo {PROJECT}:\n  AWS_SECRET={SECRET}\n  DB_URL={DBURL}\n  committer={NAME_EN}, email={EMAIL}\nAction: 已吊销密钥，通知 {ORG_EN} 安全组", "source": "zh-07-2-23", "model": "claude-opus-5-5"}
+{"id": "s0203", "lang": "zh", "text": "压测报告摘要：\n版本：{VER}\n并发：{INT}\n平均延迟：{MS}ms\n错误率：0.{INT}%\n测试对象：{FICT}模拟账号集群（虚构数据）\n结论：满足上线标准。", "source": "zh-07-2-23", "model": "claude-opus-5-5"}
+{"id": "s0204", "lang": "mixed", "text": "kubectl describe pod {PROJECT}-worker-{HEX}\nRestart Count: {INT}\nLast State: OOMKilled at {TS}\nImage: registry.local/{PROJECT}:{VER}\n备注：内存限制过低，已调整，无需人工介入。", "source": "zh-07-2-23", "model": "claude-opus-5-5"}
+{"id": "s0205", "lang": "mixed", "text": "卧槽谁把prod的key直接提交了？？config.yaml第{INT}行 api_secret: {SECRET} 赶紧revoke，{SURNAME_ZH}哥你看下是不是你那个commit {SHA}", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0206", "lang": "mixed", "text": "review了下{NAME_ZH}的PR，DATABASE_URL={DBURL} 这个别硬编码啊，丢.env里，不然又要被安全组的{NAME_EN}点名了", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0207", "lang": "mixed", "text": "这个PR我看了，逻辑没啥问题，就是timeout写死{MS}ms有点短，改成可配的吧，版本号记得bump到{VER}", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0208", "lang": "mixed", "text": "@{NAME_ZH} 你测试用例里那个token {JWT} 是真的吧？？过期没，没过期的话赶紧让{ORG_ZH}那边作废掉", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0209", "lang": "mixed", "text": "docker-compose里redis密码写的{PASSWORD}，还暴露在{IP}:{PORT}上。。这不等着被扫么，{SURNAME_ZH}总说今天必须修", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0210", "lang": "mixed", "text": "lgtm，不过单测里mock的订单号{ORDER}和sku {SKU}最好抽成fixture，别每个case都复制一遍", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0211", "lang": "mixed", "text": "git log看了下是{NAME_EN}({EMAIL})提交的，aws_secret_access_key={SECRET}，已经在history里了，得用filter-repo洗一遍", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0212", "lang": "mixed", "text": "这块变量名能不能别叫{FICT}了哈哈，虽然我也爱看那小说，改成userCache之类的吧，另外{LOCALIP}:{PORT}本地调试地址别提交上来", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0213", "lang": "mixed", "text": "hotfix分支build挂了，报错在{TS}，trace id {UUID}，应该是依赖升到{VER}引起的，先回滚到上个tag {HEX}吧", "source": "zh-08-0-24", "model": "claude-opus-5-5"}
+{"id": "s0214", "lang": "mixed", "text": "Code Review 意见：config/prod.yaml 第 {INT} 行直接写入了 api_secret: {SECRET}，请{SURNAME_ZH}工立即移除并改为从 Vault 读取，同时轮换该密钥。", "source": "zh-08-1-25", "model": "claude-opus-5-5"}
+{"id": "s0215", "lang": "mixed", "text": "审阅人：{NAME_ZH}\n提交 {SHA} 中的 .env 文件包含 DATABASE_URL={DBURL} 以及 DB_PASSWORD={PASSWORD}，该文件不应纳入版本控制，请补充 .gitignore 规则后重新提交。", "source": "zh-08-1-25", "model": "claude-opus-5-5"}
+{"id": "s0216", "lang": "mixed", "text": "关于 PR #{INT} 的说明：本次变更将服务端口由 {PORT} 调整为 {PORT}，依赖库升级至 {VER}，未涉及任何凭据或个人数据，可以合并。", "source": "zh-08-1-25", "model": "claude-opus-5-5"}
+{"id": "s0217", "lang": "mixed", "text": "{NAME_EN}，您在 auth_test.py 中硬编码的测试令牌 {JWT} 实为线上有效 token，签发对象为 {EMAIL}。请于今日内吊销，并通知{ORG_ZH}安全组备案。", "source": "zh-08-1-25", "model": "claude-opus-5-5"}
+{"id": "s0218", "lang": "zh", "text": "评审结论：本次重构仅调整了日志格式与重试策略，超时阈值设为 {MS} 毫秒，请求追踪标识统一使用 {UUID}，未发现敏感信息泄露，同意合入主干。", "source": "zh-08-1-25", "model": "claude-opus-5-5"}
+{"id": "s0219", "lang": "mixed", "text": "Reviewer comment: fixtures/users.csv 第 {INT} 行使用了真实数据——{FIRST_EN} {LAST_EN}，SSN 为 {SSN}，电话 {PHONE_US}，地址 {ADDR_EN}。请替换为脱敏样例后再提交。", "source": "zh-08-1-25", "model": "claude-opus-5-5"}
+{"id": "s0220", "lang": "zh", "text": "配置变更说明：本地调试地址统一改为 {LOCALIP}:{PORT}，示例订单号 {ORDER} 与商品编码 {SKU} 均为测试数据；单元测试中的角色 {FICT} 为虚构人物，无需脱敏。", "source": "zh-08-1-25", "model": "claude-opus-5-5"}
+{"id": "s0221", "lang": "mixed", "text": "复核意见：payment_config.py 中残留信用卡号 {CARD} 及商户密钥 {SECRET}，提交者为 {NAME_ZH}（{EMAIL}）。按照{ORG_ZH}《代码安全规范》第 {INT} 条，须在 {TS} 前完成清理与历史记录重写。", "source": "zh-08-1-25", "model": "claude-opus-5-5"}
+{"id": "s0222", "lang": "mixed", "text": "Review comment by {NAME_ZH}：\nconfig/prod.yaml 第 {INT} 行\ndb_url: {DBURL}\npassword: {PASSWORD}\n请勿把明文密码提交到仓库，改用 env 注入。", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0223", "lang": "mixed", "text": "| 文件 | 问题 | 负责人 |\n| .env.production | AWS_SECRET_ACCESS_KEY={SECRET} 泄露 | {SURNAME_ZH}总 |\n| settings.py | DEBUG=True | {NAME_EN} |", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0224", "lang": "mixed", "text": "PR #{INT} 合并前检查：\nversion: {VER}\ncommit: {SHA}\nbuild_time: {TS}\n耗时 {MS}ms，无敏感信息，LGTM。", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0225", "lang": "mixed", "text": "redis:\n  host: {LOCALIP}\n  port: {PORT}\n  timeout_ms: {MS}\n# 本地开发配置，review 通过，无需脱敏。", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0226", "lang": "mixed", "text": "告警通知人配置：\nowner_name={NAME_ZH}\nowner_phone={PHONE_CN}\nbackup_owner={FIRST_EN} {LAST_EN}\nbackup_phone={PHONE_US}\nproject={PROJECT}\n@{SURNAME_ZH}工 这些联系方式不应写进 config.ini。", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0227", "lang": "mixed", "text": "Code review：测试 fixture 里出现了真实数据？\nuser.name: {NAME_ZH}\nuser.id_card: {CN_ID}\nuser.card: {CARD}\nuser.address: {ADDR_ZH}\n请替换为 mock 数据，比如角色名 {FICT}。", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0228", "lang": "mixed", "text": "变更单：{ORDER}\n服务：payment-gateway\n镜像 tag：{VER}\nrequest_id：{UUID}\n状态：已回滚，原因是 {HEX} 校验失败，与配置文件无关。", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0229", "lang": "mixed", "text": "deploy.json 片段：\n{\"api_host\": \"{IP}\", \"api_key\": \"{SECRET}\", \"contact\": \"{NAME_EN}<{EMAIL}>\", \"org\": \"{ORG_EN}\"}\nReviewer {NAME_ZH}：key 已轮换，旧值请从 git history 中清除。", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0230", "lang": "mixed", "text": "字段 | 旧值 | 新值\nfeature_flag.new_checkout | false | true\nsku_whitelist | {SKU} | {SKU}\nuid_sample | {UID} | {UID}\n备注：纯业务配置调整，不涉及凭证。", "source": "zh-08-2-26", "model": "claude-opus-5-5"}
+{"id": "s0231", "lang": "mixed", "text": "部署脚本里别再硬编码了！！deploy.sh 第{INT}行写着 DB_PASS={PASSWORD}，谁提交的，git blame 一下是 {NAME_EN}…赶紧 rotate", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0232", "lang": "zh", "text": "刚跑完部署，版本{VER}，耗时{MS}ms，健康检查全过，没啥问题，回滚包也留着了 commit {SHA}", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0233", "lang": "mixed", "text": "@{NAME_ZH} 你那个 staging 的连接串发我下呗，就是 {DBURL} 那个？还有跳板机ip {IP}，账号用你的还是用{FIRST_EN}的", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0234", "lang": "mixed", "text": "env 文件我放群里了，DATABASE_URL={DBURL}\nAPI_SECRET={SECRET}\n别外传啊，{ORG_ZH}的安全审计下礼拜要来查", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0235", "lang": "zh", "text": "本地起服务记得改成 {LOCALIP}:{PORT}，别连线上，上次有人把测试数据灌进去了，订单号{ORDER}那批全是假单，还得手动清", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0236", "lang": "mixed", "text": "{LAST_EN}先生，你们 {PROJECT} 的 migration 跑挂了，log 里有个 token {JWT} 打出来了，赶紧把日志级别调低，有事打我电话{PHONE_CN}", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0237", "lang": "zh", "text": "脚本跑到一半卡主了，任务id {UUID}，时间戳{TS}，看着像锁表，等dba来看吧我先下班了", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0238", "lang": "mixed", "text": "{NAME_ZH}老师好，新库已经搭好了：{DBURL}，初始密码{PASSWORD}，登进去记得改。有问题邮件 {EMAIL} 或者直接找{SURNAME_ZH}工", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0239", "lang": "zh", "text": "别慌哈，那个叫{FICT}的不是真用户，是测试账号的昵称，uid {UID}，sku {SKU}也是mock的，部署前清掉就行", "source": "zh-09-0-27", "model": "claude-opus-5-5"}
+{"id": "s0240", "lang": "mixed", "text": "【部署说明】生产环境数据库连接串已更新为 {DBURL}，请运维负责人{NAME_ZH}于 {TS} 前完成配置替换，并将变更记录发送至 {EMAIL}。", "source": "zh-09-1-28", "model": "claude-opus-5-5"}
+{"id": "s0241", "lang": "mixed", "text": "部署脚本 deploy.sh（版本 {VER}）执行时需注入以下环境变量：\nDB_URL={DBURL}\nDB_PASSWORD={PASSWORD}\n如有疑问，请联系{SURNAME_ZH}工，电话：{PHONE_CN}。", "source": "zh-09-1-28", "model": "claude-opus-5-5"}
+{"id": "s0242", "lang": "zh", "text": "根据《数据库变更管理规范》第{INT}条，所有迁移脚本须在测试库 {LOCALIP}:{PORT} 上验证通过，耗时不得超过 {MS} 毫秒，方可提交上线申请。", "source": "zh-09-1-28", "model": "claude-opus-5-5"}
+{"id": "s0243", "lang": "mixed", "text": "CI 流水线日志：commit {SHA} 于 {TS} 触发构建，镜像标签 {VER}，部署任务 ID {UUID}，状态：成功。", "source": "zh-09-1-28", "model": "claude-opus-5-5"}
+{"id": "s0244", "lang": "mixed", "text": "安全审计发现：脚本 init_db.py 第{INT}行硬编码了连接串 {DBURL} 及 token {JWT}，提交者为 {FIRST_EN} {LAST_EN}（{EMAIL}），请于本周内整改。", "source": "zh-09-1-28", "model": "claude-opus-5-5"}
+{"id": "s0245", "lang": "zh", "text": "关于订单 {ORDER} 对应的数据回滚操作，已在回滚脚本 rollback_{HEX}.sql 中实现，涉及商品 {SKU} 共计 {INT} 条记录，执行用户 UID 为 {UID}。", "source": "zh-09-1-28", "model": "claude-opus-5-5"}
+{"id": "s0246", "lang": "zh", "text": "示例配置文件仅供演示，其中角色{FICT}与{FICT}为文档虚构用户，连接地址使用 {LOCALIP}，版本 {VER}，请勿直接用于生产环境。", "source": "zh-09-1-28", "model": "claude-opus-5-5"}
+{"id": "s0247", "lang": "mixed", "text": "# deploy.env\nDB_URL={DBURL}\nDB_PASSWORD={PASSWORD}\nAPP_SECRET={SECRET}\n负责人：{NAME_ZH}（{PHONE_CN}）", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0248", "lang": "mixed", "text": "| 环境 | 主机 | 端口 | 连接串 |\n| prod | {IP} | {PORT} | {DBURL} |\n| staging | {LOCALIP} | {PORT} | 见 vault |\n维护人：{SURNAME_ZH}工，邮箱 {EMAIL}", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0249", "lang": "mixed", "text": "部署单号：{ORDER}\n版本：{VER}\n镜像 digest：sha256:{SHA}\n执行时间：{TS}\n耗时：{MS}ms\n状态：success", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0250", "lang": "mixed", "text": "run.sh 第 {INT} 行报错：\nexport DATABASE_URL=\"{DBURL}\";\nexport AUTH_TOKEN=\"{JWT}\";\n回滚到 {VER}，trace_id={UUID}", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0251", "lang": "mixed", "text": "key=deploy.target value={LOCALIP}:{PORT}\nkey=deploy.build value={HEX}\nkey=deploy.sku value={SKU}\nkey=deploy.owner_uid value={UID}\n# 本配置不含凭据", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0252", "lang": "zh", "text": "【数据库变更登记表】\n申请人：{NAME_ZH}\n部门：{ORG_ZH}\n身份证号：{CN_ID}\n办公地址：{ADDR_ZH}\n目标库：{DBURL}\n备注：{SURNAME_ZH}老师已确认。", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0253", "lang": "mixed", "text": "Ansible inventory:\n[db]\n{IP} ansible_user=deploy ansible_password={PASSWORD}\n[app]\n{LOCALIP} port={PORT}\n# contact: {FIRST_EN} {LAST_EN} <{EMAIL}>", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0254", "lang": "zh", "text": "测试库种子数据说明：用户表里的“{FICT}”是剧本角色，不是真实用户；订单号 {ORDER} 和 SKU {SKU} 均为脚本自动生成，迁移版本 {VER}，共 {INT} 条。", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0255", "lang": "mixed", "text": "billing_db 凭据轮换记录\n旧 secret：{SECRET}\n新连接串：{DBURL}\n操作人：{NAME_EN}（{ORG_EN}），寄送地址 {ADDR_EN}\n付款卡号：{CARD}，SSN：{SSN}", "source": "zh-09-2-29", "model": "claude-opus-5-5"}
+{"id": "s0256", "lang": "zh", "text": "今天会议纪要哈，{PROJECT}那边进度有点拖，{SURNAME_ZH}总说下周一之前必须给个方案，{NAME_ZH}负责跟进，有问题直接打他电话{PHONE_CN}。", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0257", "lang": "mixed", "text": "sync纪要：\n1. {PROJECT} v{VER} 延期到{TS}\n2. {NAME_EN}说QA环境还没好，db连不上，配置是{DBURL}，大家别外传\n3. 下次会议再定", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0258", "lang": "zh", "text": "开会记一下，{PROJECT}的需求评审过了，{SURNAME_ZH}老师提了俩点意见，主要是接口响应太慢，平均{MS}ms，要优化到一半一下。", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0259", "lang": "mixed", "text": "今天standup没啥大事，{PROJECT}的ticket {UID}还挂着，build {SHA}跑挂了，谁有空看下log，端口{PORT}好像被占了。", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0260", "lang": "zh", "text": "纪要：{NAME_ZH}女士代表{ORG_ZH}参会，聊了下{PROJECT}二期合作，她邮箱{EMAIL}，会后把合同草稿发过去。{SURNAME_ZH}总同意先签意向书。", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0261", "lang": "mixed", "text": "周会notes：{PROJECT}灰度发布ok，回滚预案见文档，测试机{LOCALIP}先别动。版本号定{VER}，下周三上线，没意见就这么定了哈", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0262", "lang": "zh", "text": "会上吵了半天，{PROJECT}名字要不要改，有人说叫{FICT}好听，跟小说里那个角色一样，最后也没定下来，下次再议吧。", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0263", "lang": "mixed", "text": "跟{ORG_EN}的call纪要：对方PM {NAME_EN}，电话{PHONE_US}，他们想把{PROJECT}的API接进去，token先用测试的{JWT}，正式的另外申请。", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0264", "lang": "zh", "text": "补充下昨天会议，{PROJECT}采购单{ORDER}已经下了，物料编号{SKU}，数量{INT}件，财务那边说月底前付款，没问题的话就不另开会了。", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0265", "lang": "mixed", "text": "纪要（随手记的，有错别看）：{NAME_ZH}，{SURNAME_ZH}经理，还有{FIRST_EN}都在。{PROJECT}服务器{IP}被扫了，密马{PASSWORD}得赶紧换，secret {SECRET}也要轮换掉。", "source": "zh-10-0-30", "model": "claude-opus-5-5"}
+{"id": "s0266", "lang": "zh", "text": "会议纪要\n时间：{TS}\n主持人：{NAME_ZH}\n参会人员：{SURNAME_ZH}总、{NAME_ZH}、{NAME_EN}\n议题：{PROJECT}项目第二阶段里程碑评审。会议决定由{NAME_ZH}牵头完成接口联调，预计于下周五前提交测试报告。", "source": "zh-10-1-31", "model": "claude-opus-5-5"}
+{"id": "s0267", "lang": "mixed", "text": "本次周会就{PROJECT}的上线计划进行了讨论。{NAME_EN}（{ORG_EN}）汇报了海外节点部署进展，后续问题请邮件联系{EMAIL}。{SURNAME_ZH}老师建议将灰度比例控制在{INT}%以内。", "source": "zh-10-1-31", "model": "claude-opus-5-5"}
+{"id": "s0268", "lang": "zh", "text": "会议纪要（第{INT}次）\n议题：{PROJECT}版本{VER}发布评审\n结论：\n1. 构建产物校验值为{SHA}，经确认无误；\n2. 回归测试平均响应时间为{MS}毫秒，满足指标要求；\n3. 同意按原计划发布。", "source": "zh-10-1-31", "model": "claude-opus-5-5"}
+{"id": "s0269", "lang": "mixed", "text": "Action Items:\n- {NAME_EN}：完成{PROJECT}数据库迁移，目标库{DBURL}；\n- {NAME_ZH}：轮换测试环境密钥，原密钥{SECRET}即日作废；\n- {SURNAME_ZH}总：审批预算追加申请。", "source": "zh-10-1-31", "model": "claude-opus-5-5"}
+{"id": "s0270", "lang": "zh", "text": "会议记录：{PROJECT}项目组讨论了客户投诉工单{ORDER}的处理进度。经核查，问题源于{LOCALIP}:{PORT}上的缓存服务配置错误，已于{TS}修复，版本号更新为{VER}。", "source": "zh-10-1-31", "model": "claude-opus-5-5"}
+{"id": "s0271", "lang": "mixed", "text": "{TS}项目例会纪要\n出席：{FIRST_EN} {LAST_EN}、{NAME_ZH}、{SURNAME_ZH}经理\n{NAME_ZH}指出，生产服务器{IP}昨晚出现异常登录，需立即排查；{FIRST_EN}同意协助，美国团队电话{PHONE_US}。", "source": "zh-10-1-31", "model": "claude-opus-5-5"}
+{"id": "s0272", "lang": "zh", "text": "策划会议纪要：{PROJECT}宣传片剧本已确定，主角{FICT}与反派{FICT}的对手戏将作为核心卖点。版本{VER}脚本已归档，变更记录哈希{HEX}，下次会议讨论分镜。", "source": "zh-10-1-31", "model": "claude-opus-5-5"}
+{"id": "s0273", "lang": "mixed", "text": "补充说明：{NAME_ZH}先生在会后提交了报销材料，银行卡号{CARD}，身份证号{CN_ID}，已转交财务。另，{ORG_EN}的{NAME_EN}要求通过{EMAIL}接收{PROJECT}会议纪要副本。", "source": "zh-10-1-31", "model": "claude-opus-5-5"}
+{"id": "s0274", "lang": "zh", "text": "会议纪要\n时间：{TS}\n项目代号：{PROJECT}\n主持人：{NAME_ZH}\n记录人：{NAME_ZH}\n参会：{SURNAME_ZH}总、{SURNAME_ZH}老师、{NAME_ZH}（{ORG_ZH}）\n议题：确认{VER}上线排期", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0275", "lang": "mixed", "text": "Meeting Notes | Project: {PROJECT}\nAttendees: {NAME_EN} ({ORG_EN}), {FIRST_EN} {LAST_EN}, {NAME_ZH}\nAction Item: {NAME_EN} 负责跟进接口联调，截止 {TS}；联系邮箱 {EMAIL}", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0276", "lang": "zh", "text": "| 序号 | 事项 | 负责人 | 状态 |\n| {INT} | 修复工单{ORDER}回归问题 | 研发组 | 进行中 |\n| {INT} | 发布{VER}灰度包 | 运维组 | 待定 |\n备注：本表不涉及外部人员。", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0277", "lang": "mixed", "text": "项目：{PROJECT}\n会议结论：测试环境 DB 迁移至 {DBURL}，临时账号密码 {PASSWORD} 会后由{SURNAME_ZH}工统一回收。\n跟进人：{NAME_ZH}，手机{PHONE_CN}。", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0278", "lang": "zh", "text": "议程记录\n1. {SURNAME_ZH}总通报{PROJECT}二期预算；\n2. {NAME_ZH}女士补充{ORG_ZH}合同条款；\n3. 下次会议地点：{ADDR_ZH}，时间{TS}。", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0279", "lang": "mixed", "text": "Sprint Review - {PROJECT}\nBuild: {VER} / commit {SHA}\n平均响应 {MS}ms，错误率下降至 {INT}%。\n服务监听 {LOCALIP}:{PORT}，无外部依赖变更。", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0280", "lang": "zh", "text": "会议纪要（剧本组）\n项目代号：{PROJECT}\n讨论内容：第{INT}集中{FICT}与{FICT}的对手戏需重写，{FICT}的结局待定。\n下次评审：{TS}", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0281", "lang": "mixed", "text": "客户沟通纪要\n客户：{NAME_EN}先生，{ORG_EN}\n电话：{PHONE_US}；地址：{ADDR_EN}\n诉求：订单{ORDER}（SKU {SKU}）延迟交付，要求在{TS}前给出方案。\n我方对接：{NAME_ZH}", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0282", "lang": "zh", "text": "事项ID：{UUID}\n关联项目：{PROJECT}\n状态：已关闭\n说明：版本{VER}已合并，任务{UID}移交下一迭代，本次会议无新增负责人。", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0283", "lang": "mixed", "text": "安全评审会 | {PROJECT}\n问题1：日志中泄露了 token {JWT} 与密钥 {SECRET}，来源 IP {IP}。\n问题2：报销单据含卡号{CARD}、身份证{CN_ID}，需脱敏。\n责任人：{SURNAME_ZH}经理、{NAME_EN}", "source": "zh-10-2-32", "model": "claude-opus-5-5"}
+{"id": "s0284", "lang": "mixed", "text": "lead来源：官网表单\n联系人：{NAME_ZH}（{ORG_ZH}采购）\n邮箱{EMAIL}，说想要demo，我约了周三下午，记得发会议链接哈", "source": "zh-11-0-33", "model": "claude-opus-5-5"}
+{"id": "s0285", "lang": "mixed", "text": "客户{NAME_EN}，{ORG_EN}那边的，美国号{PHONE_US}，时差注意！！上次半夜打过去被骂了。。他们想看{PROJECT}的报价", "source": "zh-11-0-33", "model": "claude-opus-5-5"}
+{"id": "s0286", "lang": "zh", "text": "跟进记录：订单{ORDER}已经下了，SKU是{SKU}，数量{INT}，客户说月底前要到货，仓库那边催一下", "source": "zh-11-0-33", "model": "claude-opus-5-5"}
+{"id": "s0287", "lang": "zh", "text": "{SURNAME_ZH}女士反馈说发票抬头写错了，应该是{ORG_ZH}，地址{ADDR_ZH}，重开一张寄过去，别再搞错了啊", "source": "zh-11-0-33", "model": "claude-opus-5-5"}
+{"id": "s0288", "lang": "mixed", "text": "系统升级到{VER}之后线索导入老报错，{TS}那批全挂了，ticket号{UID}，已经提给IT了，先手动录吧", "source": "zh-11-0-33", "model": "claude-opus-5-5"}
+{"id": "s0289", "lang": "mixed", "text": "{FIRST_EN} {LAST_EN}说他换公司了，新的在{ORG_EN}，地址{ADDR_EN}，旧邮箱作废，新的是{EMAIL}，CRM里帮我改下", "source": "zh-11-0-33", "model": "claude-opus-5-5"}
+{"id": "s0290", "lang": "zh", "text": "本周新增线索{INT}条，转化{INT}条，平均响应时长{MS}ms，比上周慢了，大家回消息快点哈，别拖", "source": "zh-11-0-33", "model": "claude-opus-5-5"}
+{"id": "s0291", "lang": "mixed", "text": "{NAME_ZH}先生要签合同，要身份证号{CN_ID}做实名，付款卡号{CARD}，这些敏感的别贴群里！！直接放CRM附件里", "source": "zh-11-0-33", "model": "claude-opus-5-5"}
+{"id": "s0292", "lang": "zh", "text": "线索来源：官网表单。联系人{NAME_ZH}，任职于{ORG_ZH}采购部，手机{PHONE_CN}，邮箱{EMAIL}。客户表示预算已于本季度获批，建议于{TS}前安排首次拜访。", "source": "zh-11-1-34", "model": "claude-opus-5-5"}
+{"id": "s0293", "lang": "zh", "text": "商机阶段更新：订单号{ORDER}已进入合同审批流程，涉及物料{SKU}共{INT}件。请法务部门于{TS}前完成条款复核，暂无需联系客户。", "source": "zh-11-1-34", "model": "claude-opus-5-5"}
+{"id": "s0294", "lang": "mixed", "text": "Lead owner: {NAME_EN}\nAccount: {ORG_EN}\nContact: {FIRST_EN} {LAST_EN}, Tel {PHONE_US}\n备注：客户希望以美元结算，并要求将发票寄送至{ADDR_EN}。", "source": "zh-11-1-34", "model": "claude-opus-5-5"}
+{"id": "s0295", "lang": "zh", "text": "本周线索统计：新增有效线索{INT}条，转化商机{INT}个，平均响应时长{MS}毫秒级系统告警已关闭。请各区域负责人于周五前在系统中补全跟进记录。", "source": "zh-11-1-34", "model": "claude-opus-5-5"}
+{"id": "s0296", "lang": "zh", "text": "市场活动备注：本次读书会以小说人物{FICT}为主题，现场签到{INT}人，活动编号{UID}。该活动不涉及客户个人信息采集，无需导入线索池。", "source": "zh-11-1-34", "model": "claude-opus-5-5"}
+{"id": "s0297", "lang": "mixed", "text": "集成配置说明：CRM同步服务部署于{LOCALIP}:{PORT}，当前版本{VER}，最近一次提交{SHA}。如同步失败，请查阅日志编号{UUID}后联系运维值班。", "source": "zh-11-1-34", "model": "claude-opus-5-5"}
+{"id": "s0298", "lang": "mixed", "text": "{SURNAME_ZH}老师来电，称{ORG_ZH}拟与{ORG_EN}联合采购，项目代号{PROJECT}。请{NAME_ZH}于明日回电{PHONE_CN}，并将报价单发送至{EMAIL}。", "source": "zh-11-1-34", "model": "claude-opus-5-5"}
+{"id": "s0299", "lang": "zh", "text": "线索来源：官网表单\n姓名：{NAME_ZH}\n公司：{ORG_ZH}\n手机：{PHONE_CN}\n邮箱：{EMAIL}\n备注：对年付方案感兴趣，约下周三回电。", "source": "zh-11-2-35", "model": "claude-opus-5-5"}
+{"id": "s0300", "lang": "mixed", "text": "Lead ID: {UID} | Owner: {NAME_EN} | Company: {ORG_EN} | Contact: {FIRST_EN} {LAST_EN}（{PHONE_US}）| Stage: Qualified", "source": "zh-11-2-35", "model": "claude-opus-5-5"}
+{"id": "s0301", "lang": "zh", "text": "商机编号：{ORDER}\n产品SKU：{SKU}\n数量：{INT}\n当前阶段：方案评估\n预计成交：{TS}\n备注：客户内部审批中，暂无需跟进。", "source": "zh-11-2-35", "model": "claude-opus-5-5"}
+{"id": "s0302", "lang": "mixed", "text": "CRM导入失败：记录 {UUID} 字段 email 校验未通过，原始值为{EMAIL}，联系人{NAME_EN}，请人工核对后重新同步。", "source": "zh-11-2-35", "model": "claude-opus-5-5"}
+{"id": "s0303", "lang": "zh", "text": "线索评分规则 v{VER}：\n- 填写公司名 +{INT}分\n- 下载白皮书 +{INT}分\n- 参加线上演示 +{INT}分\n总分超过阈值自动分配给销售。", "source": "zh-11-2-35", "model": "claude-opus-5-5"}
+{"id": "s0304", "lang": "zh", "text": "活动报名统计：订单 {ORDER} 已支付，演示环境 {LOCALIP}:{PORT} 已开通，会话 {UID} 平均响应 {MS}ms，无异常。", "source": "zh-11-2-35", "model": "claude-opus-5-5"}
+{"id": "s0305", "lang": "mixed", "text": "联系人：{NAME_ZH}；公司：{ORG_ZH}；项目：{PROJECT}\n备注：客户提到想做类似《{FICT}》IP 的联名活动，预算待定，状态 Pending，版本 {VER} 报价已发。", "source": "zh-11-2-35", "model": "claude-opus-5-5"}
+{"id": "s0306", "lang": "zh", "text": "{SURNAME_ZH}老师你好，我是{NAME_ZH}的妈妈，娃报名表填好了，电话{PHONE_CN}，有事打这个就行哈", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0307", "lang": "zh", "text": "报名截至到{TS}，没交的家长抓紧哈！！学号{UID}不要填错了，填错系统不认", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0308", "lang": "mixed", "text": "家长群通知：明天下午兴趣班报名，链接已更新到{VER}版本，大家刷新下再填，之前的作废了", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0309", "lang": "mixed", "text": "Hi {SURNAME_ZH}老师，孩子爸爸是外籍，叫{NAME_EN}，email是{EMAIL}，美国号码{PHONE_US}，通知能不能也发他一份", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0310", "lang": "zh", "text": "校服订单号{ORDER}，尺码报错了能改不？款号{SKU}那个，要大一码", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0311", "lang": "zh", "text": "那个{FICT}主题的读书活动啥时候报名啊，娃天天念叨，群里没看着通知", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0312", "lang": "zh", "text": "紧急联系人：{NAME_ZH}（爷爷），{PHONE_CN}；{NAME_ZH}（奶奶），{PHONE_CN}。平时接送是奶奶", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0313", "lang": "mixed", "text": "报名系统登不上，账号{EMAIL}密码{PASSWORD}，{SURNAME_ZH}主任帮忙看看是不是被锁了，急！", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0314", "lang": "zh", "text": "一年级新生报名第{INT}批名单出了，在公告栏贴着，没看到名字的明天上午去教务处问问", "source": "zh-12-0-36", "model": "claude-opus-5-5"}
+{"id": "s0315", "lang": "zh", "text": "关于新生报名系统升级的通知\n各位家长：报名平台已更新至{VER}版本，原报名编号{ORDER}继续有效，无需重复提交。系统维护时间为{TS}，期间暂停服务，敬请谅解。", "source": "zh-12-1-37", "model": "claude-opus-5-5"}
+{"id": "s0316", "lang": "mixed", "text": "Dear {NAME_EN}：您好！感谢您为孩子报名{ORG_ZH}国际部。请将护照扫描件发送至{EMAIL}，并留意来自{PHONE_US}的确认电话。家庭住址请按英文格式填写：{ADDR_EN}。", "source": "zh-12-1-37", "model": "claude-opus-5-5"}
+{"id": "s0317", "lang": "zh", "text": "家长联系信息登记表\n学生姓名：{NAME_ZH}\n监护人：{NAME_ZH}（父亲），{NAME_ZH}（母亲）\n联系电话：{PHONE_CN}；{PHONE_CN}\n家庭住址：{ADDR_ZH}", "source": "zh-12-1-37", "model": "claude-opus-5-5"}
+{"id": "s0318", "lang": "zh", "text": "本学期课外阅读书目已公布，其中《{FICT}传》为必读篇目。请各班于第{INT}周前完成读书笔记，班级编号{UID}的同学由学习委员统一收齐后交至语文组。", "source": "zh-12-1-37", "model": "claude-opus-5-5"}
+{"id": "s0319", "lang": "mixed", "text": "报名费缴纳说明：请于{TS}前通过学校缴费系统完成支付，订单号{ORDER}，金额以页面显示为准。缴费成功后系统将生成回执编号{UUID}，请妥善保存，无需另行提交。", "source": "zh-12-1-37", "model": "claude-opus-5-5"}
+{"id": "s0320", "lang": "mixed", "text": "致{ORG_EN}家委会：经{SURNAME_ZH}校长批准，{NAME_EN}先生将作为家长代表出席开学典礼。请于{TS}前将其联系电话{PHONE_US}及住址{ADDR_EN}报送校办备案。", "source": "zh-12-1-37", "model": "claude-opus-5-5"}
+{"id": "s0321", "lang": "zh", "text": "温馨提示：招生咨询热线仅在工作日开放，每日接待时间为上午八时至下午五时。报名截止后，系统将于{INT}个工作日内发布审核结果，请家长凭报名序号{ORDER}自行查询。", "source": "zh-12-1-37", "model": "claude-opus-5-5"}
+{"id": "s0322", "lang": "zh", "text": "【新生报名表】\n学生姓名：{NAME_ZH}\n身份证号：{CN_ID}\n家长姓名：{NAME_ZH}（父）\n联系电话：{PHONE_CN}\n家庭住址：{ADDR_ZH}", "source": "zh-12-2-38", "model": "claude-opus-5-5"}
+{"id": "s0323", "lang": "zh", "text": "报名编号：{ORDER}\n提交时间：{TS}\n状态：已审核\n班级容量：{INT}人\n系统版本：{VER}\n说明：请在三个工作日内完成缴费确认。", "source": "zh-12-2-38", "model": "claude-opus-5-5"}
+{"id": "s0324", "lang": "zh", "text": "| 序号 | 学生 | 家长 | 电话 |\n| {INT} | {NAME_ZH} | {NAME_ZH} | {PHONE_CN} |\n| {INT} | {NAME_ZH} | {SURNAME_ZH}先生 | {PHONE_CN} |", "source": "zh-12-2-38", "model": "claude-opus-5-5"}
+{"id": "s0325", "lang": "zh", "text": "课外阅读登记\n书目：《{FICT}历险记》\n角色扮演：{FICT}、{FICT}\n活动编号：{ORDER}\n时长：{INT}分钟\n备注：本表不收集学生个人信息。", "source": "zh-12-2-38", "model": "claude-opus-5-5"}
+{"id": "s0326", "lang": "mixed", "text": "school_id={UID}; parent_name={NAME_EN}; parent_org={ORG_EN}; contact={PHONE_US}; addr={ADDR_EN}; submitted_at={TS}", "source": "zh-12-2-38", "model": "claude-opus-5-5"}
+{"id": "s0327", "lang": "zh", "text": "家长委员会名单\n主任：{SURNAME_ZH}总（{ORG_ZH}）\n副主任：{NAME_ZH}，电话{PHONE_CN}；\n秘书：{NAME_ZH}，邮箱{EMAIL}。", "source": "zh-12-2-38", "model": "claude-opus-5-5"}
+{"id": "s0328", "lang": "mixed", "text": "报名系统日志\nrequest_id: {UUID}\nendpoint: http://{LOCALIP}:{PORT}/api/enroll\nlatency: {MS}ms\nbuild: {VER} ({SHA})\n结果：成功写入{INT}条记录", "source": "zh-12-2-38", "model": "claude-opus-5-5"}
+{"id": "s0329", "lang": "zh", "text": "校服订购单\n订单号：{ORDER}\n商品编码：{SKU}\n尺码：{INT}\n数量：{INT}件\n领取时间：{TS}\n领取地点：学校后勤处", "source": "zh-12-2-38", "model": "claude-opus-5-5"}
+{"id": "s0330", "lang": "zh", "text": "{SURNAME_ZH}总，上周去深圳那趟的机票我帮你报了哈，订单号{ORDER}，发票抬头写的{ORG_ZH}，没问题吧？有问题跟我说下", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0331", "lang": "mixed", "text": "hi {FIRST_EN}，ur flight 改签好了，新的行程单发你邮箱{EMAIL}了，记得check下。报销的时候别忘了附登机牌哈", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0332", "lang": "zh", "text": "报销单又被打回来了。。说是酒店发票金额跟审批单对不上，差了{INT}块，财务说要重新提，烦死", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0333", "lang": "zh", "text": "乘机人：{NAME_ZH}\n身份证：{CN_ID}\n电话：{PHONE_CN}\n麻烦帮忙订下周三早班机，经济舱就行，谢啦", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0334", "lang": "mixed", "text": "报销系统升到{VER}之后上传附件老是报错，error code {HEX}，有人遇到没？IT说下午修好，先别提单了", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0335", "lang": "zh", "text": "{NAME_ZH}老师你好，您的差旅费已经打款了，到账卡号尾号是{CARD}这张，要是没收到联系下财务{SURNAME_ZH}姐，她电话{PHONE_CN}", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0336", "lang": "mixed", "text": "Booking ref {ORDER}，passenger {NAME_EN}，从LAX飞上海，客户那边联系电话{PHONE_US}，落地后让司机接一下，酒店地址是{ADDR_ZH}", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0337", "lang": "zh", "text": "出差补贴标准今年调了，一线城市每天{INT}，其他城市降了点，具体看附件，审批流程跟之前一样不变哦", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0338", "lang": "zh", "text": "我那张机票订单{ORDER}退了没退啊？客服说处理中都三天了，退款单号{UID}，我是不是得再打电话催催", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0339", "lang": "mixed", "text": "{SURNAME_ZH}经理，{PROJECT}项目这次去北京的差旅预算超了，我和{NAME_ZH}的机票加酒店一共报了{INT}，审批麻烦帮忙签下，抄送{EMAIL}就行", "source": "zh-13-0-39", "model": "claude-opus-5-5"}
+{"id": "s0340", "lang": "zh", "text": "关于{NAME_ZH}同志赴{ADDR_ZH}出差的报销申请：往返机票合计{INT}元，订单号{ORDER}，请财务部于{TS}前完成审核。", "source": "zh-13-1-40", "model": "claude-opus-5-5"}
+{"id": "s0341", "lang": "mixed", "text": "Expense Report\n申请人：{NAME_EN}（{ORG_EN}）\n联系电话：{PHONE_US}\n报销事由：参加{PROJECT}项目评审会，住宿费{INT}元，已附发票。", "source": "zh-13-1-40", "model": "claude-opus-5-5"}
+{"id": "s0342", "lang": "zh", "text": "差旅报销系统已升级至{VER}版本，新增机票订单自动匹配功能。各部门请于{TS}后通过新流程提交单据，原编号{UID}的模板停用。", "source": "zh-13-1-40", "model": "claude-opus-5-5"}
+{"id": "s0343", "lang": "zh", "text": "兹证明{NAME_ZH}（身份证号{CN_ID}）系我单位{ORG_ZH}正式员工，于{TS}因公赴外地，所产生费用由公司承担，报销款项打入其尾号对应的银行卡{CARD}。", "source": "zh-13-1-40", "model": "claude-opus-5-5"}
+{"id": "s0344", "lang": "mixed", "text": "订单{ORDER}已完成退票处理，退款将在{INT}个工作日内原路返回。如对退款金额有疑问，请参阅票务规则第{INT}条，或查询流水号{UUID}。", "source": "zh-13-1-40", "model": "claude-opus-5-5"}
+{"id": "s0345", "lang": "mixed", "text": "内部通知：差旅平台接口迁移完毕，回调地址为{LOCALIP}:{PORT}，日志校验值{SHA}。本次变更不涉及员工个人数据，报销流程照常进行。", "source": "zh-13-1-40", "model": "claude-opus-5-5"}
+{"id": "s0346", "lang": "mixed", "text": "敬请{FIRST_EN} {LAST_EN}先生注意：您在{ORG_EN}名下的公务卡{CARD}已产生机票消费，账单地址登记为{ADDR_EN}，请于月末前完成核销。", "source": "zh-13-1-40", "model": "claude-opus-5-5"}
+{"id": "s0347", "lang": "zh", "text": "根据《差旅费管理办法》，经济舱为默认舱位标准，超标部分需部门负责人书面批准。本季度共处理报销单{INT}笔，平均审批时长{MS}毫秒级系统响应，未发现异常。", "source": "zh-13-1-40", "model": "claude-opus-5-5"}
+{"id": "s0348", "lang": "zh", "text": "差旅报销单\n申请人：{NAME_ZH}\n部门：{ORG_ZH}\n联系电话：{PHONE_CN}\n出差事由：{PROJECT}项目现场支持\n报销金额：{INT}元\n审批人：{SURNAME_ZH}总", "source": "zh-13-2-41", "model": "claude-opus-5-5"}
+{"id": "s0349", "lang": "mixed", "text": "Booking Ref: {ORDER}\nPassenger: {NAME_EN}\nE-ticket No.: {INT}\nContact: {EMAIL}, {PHONE_US}\n航班：{SKU}，起飞时间 {TS}", "source": "zh-13-2-41", "model": "claude-opus-5-5"}
+{"id": "s0350", "lang": "zh", "text": "| 订单号 | 航段 | 票价 | 状态 |\n| {ORDER} | 北京-上海 | {INT} | 已出票 |\n| {ORDER} | 上海-深圳 | {INT} | 待改签 |", "source": "zh-13-2-41", "model": "claude-opus-5-5"}
+{"id": "s0351", "lang": "mixed", "text": "付款方式：公司卡\n持卡人：{FIRST_EN} {LAST_EN}\n卡号：{CARD}\n账单地址：{ADDR_EN}\n关联订单：{ORDER}", "source": "zh-13-2-41", "model": "claude-opus-5-5"}
+{"id": "s0352", "lang": "zh", "text": "行程单校验结果：\n订单 {ORDER} —— 通过\n订单 {ORDER} —— 金额不符，差额 {INT} 元\n校验耗时 {MS}ms，批次号 {UUID}", "source": "zh-13-2-41", "model": "claude-opus-5-5"}
+{"id": "s0353", "lang": "zh", "text": "住宿明细：酒店地址：{ADDR_ZH}；入住人：{NAME_ZH}、{NAME_ZH}；房费合计：{INT}元；同行审批：{SURNAME_ZH}先生（{EMAIL}）。", "source": "zh-13-2-41", "model": "claude-opus-5-5"}
+{"id": "s0354", "lang": "mixed", "text": "字段说明\n- traveler_name：乘客姓名，示例值见测试用例中的虚构角色{FICT}\n- order_id：格式如 {ORDER}\n- api_version：{VER}\n仅用于沙盒环境 {LOCALIP}:{PORT}", "source": "zh-13-2-41", "model": "claude-opus-5-5"}
+{"id": "s0355", "lang": "mixed", "text": "报销接口回调日志：\nuser={NAME_EN}, org={ORG_EN}\nclient_ip={IP}\ntoken={JWT}\ninvoice_sha={SHA}\nresult=APPROVED", "source": "zh-13-2-41", "model": "claude-opus-5-5"}
+{"id": "s0356", "lang": "zh", "text": "律师你好，我跟{ORG_ZH}签的那个劳动合同，第{INT}条说竞业限制两年，没给补偿金，这个有效么？我叫{NAME_ZH}，电话{PHONE_CN}，麻烦回个电", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0357", "lang": "zh", "text": "{SURNAME_ZH}律师，房东{NAME_ZH}说押金不退了，合同里根本没写违约扣押金啊。。。地址是{ADDR_ZH}，我还有聊天记录截图", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0358", "lang": "mixed", "text": "hi，合同PDF我发你邮箱{EMAIL}了，甲方是{ORG_EN}，签字人{NAME_EN}，NDA里那个non-compete clause帮看下是不是太宽了？", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0359", "lang": "zh", "text": "问下哈，网购的东西订单号{ORDER}，商家说定制品不退，但是页面上没写啊，这种算不算格式条款无效？", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0360", "lang": "zh", "text": "合同模板我更新到{VER}了，第三章违约金那块改成按日万分之{INT}算，你们看下有没问题，没问题就定稿了", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0361", "lang": "zh", "text": "{SURNAME_ZH}总说这个借条不用写身份证号，我觉得不靠谱。借款人{NAME_ZH}，身份证{CN_ID}，金额{INT}万，要不要再加个担保人？", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0362", "lang": "zh", "text": "小说里{FICT}签的那个卖身契，现实里肯定无效吧哈哈，违背公序良俗嘛，我就随便问问", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0363", "lang": "zh", "text": "租房合同第{INT}页那个提前解约要赔{INT}个月租金，太狠了吧，能不能跟中介谈谈改成一个月？没签呢还", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0364", "lang": "mixed", "text": "我在美国那边的合同也要你帮看下，contact是{NAME_EN}，电话{PHONE_US}，公司地址{ADDR_EN}，付款走卡号{CARD}，这样写进合同ok吗", "source": "zh-14-0-42", "model": "claude-opus-5-5"}
+{"id": "s0365", "lang": "zh", "text": "甲方：{ORG_ZH}（以下简称“甲方”），法定代表人：{NAME_ZH}，住所地：{ADDR_ZH}。\n乙方：{NAME_ZH}，身份证号码：{CN_ID}，联系电话：{PHONE_CN}。", "source": "zh-14-1-43", "model": "claude-opus-5-5"}
+{"id": "s0366", "lang": "zh", "text": "{SURNAME_ZH}律师您好，关于合同第{INT}条违约责任的约定，我方认为违约金比例明显过高，恳请您于{TS}前出具书面法律意见，并发送至{EMAIL}。", "source": "zh-14-1-43", "model": "claude-opus-5-5"}
+{"id": "s0367", "lang": "mixed", "text": "This Agreement is entered into by and between {ORG_EN}, represented by {NAME_EN}, and {ORG_ZH}. 双方经友好协商，就{PROJECT}项目技术服务事宜达成如下条款，本协议版本号为{VER}。", "source": "zh-14-1-43", "model": "claude-opus-5-5"}
+{"id": "s0368", "lang": "zh", "text": "根据《民法典》第五百七十七条之规定，当事人一方不履行合同义务或者履行合同义务不符合约定的，应当承担继续履行、采取补救措施或者赔偿损失等违约责任。本条款自合同编号{ORDER}生效之日起适用。", "source": "zh-14-1-43", "model": "claude-opus-5-5"}
+{"id": "s0369", "lang": "zh", "text": "本案中，原告援引小说人物{FICT}的经历作为类比，主张其著作权受到侵害。法院认为，该虚构角色名称本身不构成作品，相关诉请缺乏法律依据，案号为{ORDER}。", "source": "zh-14-1-43", "model": "claude-opus-5-5"}
+{"id": "s0370", "lang": "mixed", "text": "电子签约系统日志显示：签署请求ID {UUID}，文档哈希{SHA}，时间戳{TS}，耗时{MS}ms。签署人{NAME_ZH}登录IP为{IP}，访问令牌{JWT}已于签署完成后失效。", "source": "zh-14-1-43", "model": "claude-opus-5-5"}
+{"id": "s0371", "lang": "zh", "text": "第十二条 争议解决\n凡因本合同引起的或与本合同有关的任何争议，双方应首先友好协商解决；协商不成的，任何一方均可向合同签订地有管辖权的人民法院提起诉讼。本合同一式{INT}份，各方各执{INT}份，具有同等法律效力。", "source": "zh-14-1-43", "model": "claude-opus-5-5"}
+{"id": "s0372", "lang": "zh", "text": "委托人：{NAME_ZH}\n身份证号：{CN_ID}\n联系电话：{PHONE_CN}\n委托事项：房屋租赁合同纠纷咨询\n受托律所：{ORG_ZH}", "source": "zh-14-2-44", "model": "claude-opus-5-5"}
+{"id": "s0373", "lang": "mixed", "text": "甲方（出租方）：{NAME_ZH}，住址：{ADDR_ZH}\n乙方（承租方）：{ORG_ZH}，法定代表人：{SURNAME_ZH}总\n合同编号：{ORDER}｜签订日期：{TS}", "source": "zh-14-2-44", "model": "claude-opus-5-5"}
+{"id": "s0374", "lang": "mixed", "text": "Client Name: {NAME_EN}\nEmail: {EMAIL}\nPhone: {PHONE_US}\n咨询类型：跨境劳动合同（NDA条款审查）\n对接律师：{SURNAME_ZH}律师", "source": "zh-14-2-44", "model": "claude-opus-5-5"}
+{"id": "s0375", "lang": "zh", "text": "案件编号：{ORDER}\n合同模板版本：{VER}\n备注：本模板中“张三”“李四”仅为示例当事人代称，第5条中的角色{FICT}来自培训案例，不涉及真实个人。", "source": "zh-14-2-44", "model": "claude-opus-5-5"}
+{"id": "s0376", "lang": "mixed", "text": "Party A: {ORG_EN}, Address: {ADDR_EN}\nParty B: {NAME_EN}（SSN: {SSN}）\n适用法律：中华人民共和国法律｜Effective Date: {TS}", "source": "zh-14-2-44", "model": "claude-opus-5-5"}
+{"id": "s0377", "lang": "zh", "text": "字段：违约责任\n条款号：第{INT}条\n修订记录：{VER} → {VER}\n审核状态：待复核\n系统流水号：{UUID}", "source": "zh-14-2-44", "model": "claude-opus-5-5"}
+{"id": "s0378", "lang": "mixed", "text": "咨询登记表\n姓名：{NAME_ZH}（英文名 {FIRST_EN} {LAST_EN}）\n邮箱：{EMAIL}\n问题摘要：与{ORG_ZH}签署的竞业限制协议是否有效？\n转接：{SURNAME_ZH}老师", "source": "zh-14-2-44", "model": "claude-opus-5-5"}
+{"id": "s0379", "lang": "zh", "text": "| 序号 | 文书名称 | 页数 | 归档编号 |\n| {INT} | 股权转让协议（草案） | {INT} | {SKU} |\n| {INT} | 补充协议 | {INT} | {SKU} |\n说明：以上文书均未签署。", "source": "zh-14-2-44", "model": "claude-opus-5-5"}
+{"id": "s0380", "lang": "mixed", "text": "Hi {FIRST_EN}，昨天call里说的那个deadline能不能往后推两天？{SURNAME_ZH}总那边还没sign off，我这边也卡着。有问题直接打我{PHONE_CN}", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0381", "lang": "mixed", "text": "@{NAME_EN} 附件是{PROJECT}的weekly report，v{VER}那版的bug基本fix了，剩下的等{NAME_ZH}回来再看。cc一下{EMAIL}，麻烦帮忙转给{ORG_EN}那边", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0382", "lang": "mixed", "text": "各位，{PROJECT} staging环境已经部署到 {LOCALIP}:{PORT}，build号{INT}，commit {SHA}。有啥问题群里说，别私聊了哈", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0383", "lang": "mixed", "text": "{LAST_EN}先生您好，合同扫描件我晚点发，地址写的是{ADDR_EN}对吧？中文版的话是{ADDR_ZH}，麻烦确认下有没有写措", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0384", "lang": "mixed", "text": "订单{ORDER}客户催了好几次了，SKU {SKU}库存不够，supplier说下周才到货。我先跟客户解释下，大家别慌", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0385", "lang": "mixed", "text": "FYI 测试库连接串先用这个：{DBURL}，账号密码别外传啊，pwd是{PASSWORD}。用完记得rotate，上次就被安全组骂了", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0386", "lang": "mixed", "text": "刚看了下log，{TS}那会儿request {UUID}超时了，耗时{MS}ms，应该是网关的锅不是咱们的。我明天再跟进，今天先下了", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0387", "lang": "mixed", "text": "Hey team，demo视频里的角色名改成{FICT}了，marketing说原来那个太像真人。新版本{VER}今晚release，明早check下", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0388", "lang": "mixed", "text": "{SURNAME_ZH}总，报销那块财务要身份证号{CN_ID}和卡号{CARD}，我直接填了哈。另外{FIRST_EN}说他的SSN {SSN}不用给咱们，走{ORG_EN}的HR就行", "source": "zh-15-0-45", "model": "claude-opus-5-5"}
+{"id": "s0389", "lang": "mixed", "text": "Dear {NAME_EN}，\n关于{PROJECT}项目的第二阶段交付，我方已完成联调，请贵司于本周五前确认。如有疑问，请联系{NAME_ZH}（{EMAIL}，{PHONE_CN}）。\nBest regards,\n{ORG_ZH}", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0390", "lang": "mixed", "text": "{SURNAME_ZH}总您好：\n{ORG_EN}的{FIRST_EN}已同意下周在{ADDR_ZH}召开kick-off meeting，届时请财务部同事一并出席。会议纪要将由{NAME_ZH}整理后抄送各方。", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0391", "lang": "mixed", "text": "各位同事：\n{PROJECT} release {VER} 已于{TS}正式上线，构建号{INT}，commit {SHA}。请各模块负责人在staging环境（{LOCALIP}:{PORT}）完成回归测试后回复本邮件。", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0392", "lang": "mixed", "text": "Hi {FIRST_EN} {LAST_EN}，\n附件为贵司订单{ORDER}的发票，付款请汇至卡号{CARD}。美国办公室联系电话为{PHONE_US}，寄件地址：{ADDR_EN}。谢谢配合。", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0393", "lang": "mixed", "text": "{NAME_ZH}女士：\n为办理赴美出差签证，请于三日内将身份证号{CN_ID}及护照扫描件发送至{EMAIL}。美方同事{NAME_EN}的SSN（{SSN}）已另行加密传输，请勿转发。", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0394", "lang": "mixed", "text": "致{ORG_EN}项目组：\n经内部评审，SKU {SKU} 的规格变更申请（工单{UID}）已获批准，预计平均响应延迟降低至{MS}ms。后续排期请参见共享文档，此邮件无需回复。", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0395", "lang": "mixed", "text": "{LAST_EN}先生，\n测试环境数据库连接串为{DBURL}，临时密码{PASSWORD}，请登录后立即修改。API secret {SECRET} 及token {JWT} 仅限本次联调使用，访问来源已限定为{IP}。", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0396", "lang": "zh", "text": "各位好：\n本季度营销文案中的主角{FICT}系虚构人物，与任何真实个人无关。请法务部于周三前完成审核，审核编号{UUID}，版本{VER}。", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0397", "lang": "mixed", "text": "Dear team,\n本次incident的根因已定位：配置哈希{HEX}与预期不符，导致服务在{TS}中断约{INT}分钟。修复已合入{VER}，事件编号{UID}。详细post-mortem将于下周例会分享。", "source": "zh-15-1-46", "model": "claude-opus-5-5"}
+{"id": "s0398", "lang": "mixed", "text": "Subject: {PROJECT} kickoff follow-up\nFrom: {NAME_EN} <{EMAIL}>\nTo: {NAME_ZH}（{ORG_ZH}）\nCC: {FIRST_EN} {LAST_EN}\n正文：{SURNAME_ZH}总您好，附件是会议纪要，请于本周内确认。", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0399", "lang": "mixed", "text": "| Role | Name | Contact |\n|---|---|---|\n| PM | {NAME_EN} | {PHONE_US} |\n| 中方对接人 | {NAME_ZH} | {PHONE_CN} |\n| Vendor | {ORG_EN} | {EMAIL} |", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0400", "lang": "mixed", "text": "Release Note - {PROJECT}\n版本：{VER}\n构建时间：{TS}\nCommit：{SHA}\n变更：修复了 timeout 问题，接口平均耗时降至 {MS}ms。\n请各位 reviewer 在 {TS} 前完成 sign-off。", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0401", "lang": "mixed", "text": "差旅报销申请\n申请人：{NAME_ZH}\n身份证号：{CN_ID}\n公司卡：{CARD}\n出差地点：{ADDR_EN}\n审批人：{NAME_EN}（{ORG_EN} Finance）", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0402", "lang": "mixed", "text": "订单确认 / Order Confirmation\nOrder No.: {ORDER}\nSKU: {SKU}\n数量：{INT}\n交付版本：{VER}\n备注：此单为样机采购，与 {PROJECT} 第二阶段无关。", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0403", "lang": "mixed", "text": "Dear Mr. {LAST_EN},\n关于 onboarding 材料：\n- 姓名：{NAME_EN}\n- SSN：{SSN}\n- 住址：{ADDR_EN}\n- 国内紧急联系人：{NAME_ZH}，{PHONE_CN}\nThanks, {NAME_ZH}女士", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0404", "lang": "mixed", "text": "Incident Report #{INT}\nService: api-gateway\nTrace ID: {UUID}\nNode: {LOCALIP}:{PORT}\nUser UID: {UID}\nDuration: {MS}ms\n结论：缓存击穿导致，已在 {VER} 中修复。", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0405", "lang": "mixed", "text": "Key: value 交接清单\nOwner: {NAME_EN}（{EMAIL}）\nAPI secret: {SECRET}\nService token: {JWT}\n上海办公室：{ADDR_ZH}\n接手人：{SURNAME_ZH}经理，{ORG_ZH}", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0406", "lang": "mixed", "text": "市场素材审核表\n素材编号：{HEX}\n主角形象：{FICT}（游戏原创角色，非真人）\n适用版本：{VER}\n上线时间：{TS}\nStatus: Approved，请 localization team 同步英文文案。", "source": "zh-15-2-47", "model": "claude-opus-5-5"}
+{"id": "s0407", "lang": "mixed", "text": "hi {SURNAME_ZH}工，那个login一直报401，我用的账号是{EMAIL}，密码刚改成{PASSWORD}了还是不行，帮看下呗", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0408", "lang": "mixed", "text": "客户{NAME_ZH}说app闪退，版本{VER}，复现步骤他发群里了，log里有个trace id {UUID}，你先瞅瞅", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0409", "lang": "mixed", "text": "prod库连不上了！！DB url是{DBURL}，从{IP}这台机子ping得通但是port {PORT}超时，{NAME_EN}你那边有改过security group吗", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0410", "lang": "mixed", "text": "订单{ORDER}那个退款卡住了，sku是{SKU}，不是用户问题，是我们callback没回，ts={TS}，耗时{MS}ms", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0411", "lang": "mixed", "text": "{SURNAME_ZH}总刚打电话来骂人了。。他手机{PHONE_CN}，说{ORG_ZH}那边的报表导不出，让你今天必须给个fix", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0412", "lang": "mixed", "text": "build挂了，commit {SHA}之后就红了，看着像是dependency升到{VER}导致的，回滚下试试？", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0413", "lang": "mixed", "text": "美国那边的用户{FIRST_EN} {LAST_EN}，电话{PHONE_US}，地址{ADDR_EN}，说收不到验证码，帮我查下sms gateway日志", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0414", "lang": "mixed", "text": "别把token贴群里啊大哥，{JWT}这个已经泄露了，赶紧revoke，另外api secret {SECRET}也换一个", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0415", "lang": "mixed", "text": "本地起服务用{LOCALIP}:{PORT}就行，uid填{UID}测试账号，别用线上的，报错码{HEX}的话重启下容器就好了", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0416", "lang": "mixed", "text": "那个bug是游戏里{FICT}的技能动画卡帧，跟用户数据没关系，ticket {INT}我先close了哈，有问题再reopen", "source": "zh-16-0-48", "model": "claude-opus-5-5"}
+{"id": "s0417", "lang": "mixed", "text": "{SURNAME_ZH}先生您好，关于您反馈的 login failure 问题，我们已在日志中定位到来源 IP 为 {IP} 的异常请求，请确认该地址是否为贵司 {ORG_ZH} 的出口网关。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0418", "lang": "mixed", "text": "Dear {NAME_EN}，工单 {ORDER} 已升级至 L2 支持团队。后续进展将发送至 {EMAIL}，如需电话沟通请拨打 {PHONE_US}。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0419", "lang": "mixed", "text": "您好，经排查，客户端版本 {VER} 存在已知的 memory leak 问题，建议升级至最新版本后重启服务。修复 commit 为 {SHA}，详情请参阅 release notes。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0420", "lang": "mixed", "text": "{NAME_ZH}女士：\n您提供的数据库连接串 {DBURL} 中包含明文密码 {PASSWORD}，出于安全考虑，请立即在控制台 rotate credentials，并避免在工单中粘贴敏感信息。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0421", "lang": "mixed", "text": "请求 ID {UUID} 在 {TS} 返回 HTTP 504，平均响应时间 {MS} ms。初步判断为上游服务 {LOCALIP}:{PORT} 超时，我们将持续观察并在 24 小时内回复。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0422", "lang": "mixed", "text": "{SURNAME_ZH}总，贵司项目 {PROJECT} 的 API Key {SECRET} 已被检测到在公开仓库中泄露，我们已临时禁用该密钥。如需重新签发，请联系账户管理员 {FIRST_EN} {LAST_EN}（{PHONE_CN}）。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0423", "lang": "mixed", "text": "感谢您的耐心等待。SKU {SKU} 对应的 license 已于今日激活，账户 UID 为 {UID}，有效期一年。如有其他问题，欢迎随时提交新工单。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0424", "lang": "mixed", "text": "{NAME_ZH}老师您好，您在测试环境中使用的 JWT {JWT} 已过期，请重新调用 /auth/token 接口获取。另外，发票将寄送至{ADDR_ZH}，请核对收件信息。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0425", "lang": "mixed", "text": "关于文档示例中出现的用户“{FICT}”，该名称仅为虚构角色，用于演示 permission 配置，并非真实账户，请勿在生产环境中引用。错误码 {HEX} 表示权限不足。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0426", "lang": "mixed", "text": "Hi {NAME_EN}，为完成 {ORG_EN} 的企业实名认证，请补充法人身份证号 {CN_ID} 及对公付款卡号 {CARD}。账单地址请填写英文格式：{ADDR_EN}。", "source": "zh-16-1-49", "model": "claude-opus-5-5"}
+{"id": "s0427", "lang": "mixed", "text": "工单信息\n客户：{NAME_ZH}（{ORG_ZH}）\n联系电话：{PHONE_CN}\nEmail：{EMAIL}\n问题描述：升级到 {VER} 后 dashboard 一直 loading，报错码 {INT}。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0428", "lang": "mixed", "text": "| ticket_id | reporter | contact | status |\n| {UID} | {NAME_EN} | {PHONE_US} | pending |\n备注：{LAST_EN}先生说 SSO 登录失败，已让他清 cache 重试。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0429", "lang": "mixed", "text": "环境信息：\nversion: {VER}\nbuild: {SHA}\nlatency_p99: {MS}ms\nport: {PORT}\n结论：非客户侧问题，属于已知 bug，预计下个 patch 修复。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0430", "lang": "mixed", "text": "{SURNAME_ZH}总您好，关于订单 {ORDER} 的部署问题：生产库连接串 {DBURL} 已暴露在日志里，请尽快 rotate password，新密码不要用 {PASSWORD} 这种弱口令。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0431", "lang": "mixed", "text": "Escalation Form\nName: {FIRST_EN} {LAST_EN}\nCompany: {ORG_EN}\nSource IP: {IP}\nAPI Key: {SECRET}\nIssue: 请求频繁被 rate limit，返回 429。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0432", "lang": "mixed", "text": "SKU：{SKU}\n订单号：{ORDER}\n下单时间：{TS}\n状态：已发货\n备注：客户反馈固件 {VER} 无法 OTA，已转二线 support。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0433", "lang": "mixed", "text": "key=value 记录：\nuser={NAME_ZH}; id_card={CN_ID}; card={CARD}; addr={ADDR_ZH}\n{NAME_ZH}女士要求变更绑定的银行卡，已完成 KYC 校验。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0434", "lang": "mixed", "text": "调试日志摘要：\ntrace_id={UUID}\nhost={LOCALIP}:{PORT}\nduration={MS}ms\nchecksum={HEX}\n测试账号是游戏里的 NPC「{FICT}」，不涉及真实用户数据。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0435", "lang": "mixed", "text": "客服回复：{NAME_EN}，您的 token（{JWT}）已过期，请重新登录。如需寄送硬件，请确认地址：{ADDR_EN}，SSN 末位核验请勿在 chat 中发送完整 {SSN}。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0436", "lang": "mixed", "text": "Q：项目 {PROJECT} 的 CI 一直 fail 怎么办？\nA：检查 runner 版本是否 ≥ {VER}，以及 job {INT} 的 timeout 设置；若仍失败请附上 commit {SHA} 的完整 log。", "source": "zh-16-2-50", "model": "claude-opus-5-5"}
+{"id": "s0437", "lang": "zh", "text": "喂 我想问下社保转移那个 我叫{NAME_ZH} 身份证{CN_ID} 之前在{ORG_ZH}交的 现在断缴了咋办啊", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0438", "lang": "zh", "text": "{SURNAME_ZH}老师你好，公积金提取材料我发你了哈，手机号{PHONE_CN}，有问题直接打我，地址填的{ADDR_ZH}没错吧", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0439", "lang": "mixed", "text": "户口迁移进度查不到，系统一直显示error，受理编号{ORDER}，app版本{VER}，是不是要更新下啊。。", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0440", "lang": "zh", "text": "帮我妈办下医保续费，她叫{NAME_ZH}，身份证号{CN_ID}，我是她儿子{NAME_ZH}，电话{PHONE_CN}，要不要委托书啊？", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0441", "lang": "zh", "text": "公积金贷款审批说要{INT}个工作日 都过了还没信 业务流水号{ORDER} 能不能催一下", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0442", "lang": "zh", "text": "请问居住证到期了能在网上续嘛？还是得跑派出所，排号{INT}号，等了快一个钟了。。", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0443", "lang": "zh", "text": "我老公{NAME_ZH}的公积金卡{CARD}被冻结了，说是信息不一至，户籍地址{ADDR_ZH}跟现住址不一样有影响吗", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0444", "lang": "zh", "text": "大厅那个窗口贴的通知写着社保卡补办工本费{INT}元，办理时间{TS}之前，过了就只能明天来了", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0445", "lang": "mixed", "text": "办退休那个张表上让填紧急联系人，我填了{NAME_EN}，他在国外电话{PHONE_US}，email是{EMAIL}，这样行不行啊{SURNAME_ZH}姐", "source": "zh-17-0-51", "model": "claude-opus-5-5"}
+{"id": "s0446", "lang": "zh", "text": "申请人{NAME_ZH}，身份证号{CN_ID}，现居{ADDR_ZH}，因工作调动申请将社会保险关系转移至本市，请予办理。联系电话：{PHONE_CN}。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0447", "lang": "zh", "text": "关于{ORG_ZH}职工{NAME_ZH}住房公积金提取事项的说明：\n该职工已于{TS}缴存满{INT}个月，申请提取金额以系统核定为准，受理编号{ORDER}。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0448", "lang": "zh", "text": "{SURNAME_ZH}女士：您提交的户口迁移申请（业务流水号{ORDER}）已审核通过，请于{INT}个工作日内携带原件至户籍窗口办理落户手续。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0449", "lang": "mixed", "text": "系统通知：社保经办平台将于{TS}进行版本升级至{VER}，届时线上业务暂停服务约{INT}小时，请各单位合理安排申报时间。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0450", "lang": "zh", "text": "兹证明{NAME_ZH}（身份证号：{CN_ID}）系我单位在职员工，自{TS}起由{ORG_ZH}为其缴纳养老、医疗、失业保险，特此证明。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0451", "lang": "zh", "text": "根据《住房公积金管理条例》相关规定，缴存职工连续足额缴存满{INT}个月的，可申请公积金贷款。本公告自发布之日起施行，文号{FICT}。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0452", "lang": "mixed", "text": "{SURNAME_ZH}总，贵公司在电子政务平台的对接账号已开通，管理员邮箱{EMAIL}，初始密码{PASSWORD}，请首次登录后立即修改。如有疑问请致电{PHONE_CN}。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0453", "lang": "zh", "text": "办事指南：居民办理户籍证明，需提供本人有效证件及申请表（表单编号{SKU}），窗口受理时限为{INT}个工作日，不收取任何费用。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0454", "lang": "mixed", "text": "外籍人员{NAME_EN}（护照姓氏{LAST_EN}）申请参加本市社会保险，工作单位为{ORG_EN}，住址{ADDR_EN}，联系电话{PHONE_US}，经办人：{NAME_ZH}老师。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0455", "lang": "zh", "text": "经核查，业务单号{ORDER}所涉公积金转移接续申请材料齐全，已于{TS}完成审批，转入资金将在{INT}个工作日内到账。", "source": "zh-17-1-52", "model": "claude-opus-5-5"}
+{"id": "s0456", "lang": "zh", "text": "社保参保登记表\n姓名：{NAME_ZH}\n身份证号：{CN_ID}\n联系电话：{PHONE_CN}\n户籍地址：{ADDR_ZH}\n参保单位：{ORG_ZH}", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0457", "lang": "zh", "text": "公积金提取申请｜申请人：{NAME_ZH}｜收款卡号：{CARD}｜受理编号：{ORDER}｜提交时间：{TS}", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0458", "lang": "mixed", "text": "户籍迁移办理进度\n业务流水号：{ORDER}\n当前状态：已受理\n系统版本：{VER}\n预计办结：{INT}个工作日\n备注：请勿重复提交", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0459", "lang": "zh", "text": "| 序号 | 姓名 | 证件号码 | 手机号 |\n| {INT} | {NAME_ZH} | {CN_ID} | {PHONE_CN} |\n| {INT} | {NAME_ZH} | {CN_ID} | {PHONE_CN} |", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0460", "lang": "mixed", "text": "经办人：{SURNAME_ZH}老师（窗口{INT}号）\n申请人：{NAME_ZH}先生\nEmail：{EMAIL}\n事项：灵活就业人员社保补缴", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0461", "lang": "zh", "text": "公积金缴存基数调整通知\n适用年度：{INT}年\n调整批次号：{ORDER}\n上下限依据当地统计口径执行，具体以系统显示为准。", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0462", "lang": "mixed", "text": "Applicant Name: {NAME_EN}\n中文名：{NAME_ZH}\nPassport/ID：{CN_ID}\nPhone (US)：{PHONE_US}\n境外住址：{ADDR_EN}\n申请事项：外籍配偶随迁落户", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0463", "lang": "zh", "text": "居住证办理须知：\n1. 携带本人身份证原件；\n2. 提供租赁合同或房产证明；\n3. 窗口受理后生成回执号{ORDER}，凭此查询进度。", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0464", "lang": "zh", "text": "单位名称：{ORG_ZH}；联系人：{SURNAME_ZH}总；电话：{PHONE_CN}；邮箱：{EMAIL}；办理事项：新增参保人员{INT}名", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0465", "lang": "mixed", "text": "系统日志 {TS}\nmodule=hukou-query ver={VER}\nrequest_id={UUID}\nlatency={MS}ms\nresult=OK\n说明：测试数据中的人物均为{FICT}等虚构角色", "source": "zh-17-2-53", "model": "claude-opus-5-5"}
+{"id": "s0466", "lang": "zh", "text": "喂{SURNAME_ZH}姐，我那个理赔到底批没批啊？报案号{ORDER}，都等了快俩礼拜了，电话{PHONE_CN}一直没人回我", "source": "zh-18-0-54", "model": "claude-opus-5-5"}
+{"id": "s0467", "lang": "mixed", "text": "{NAME_ZH}先生您好，您车险理陪材料还差身份证复印件，证号{CN_ID}那张，拍清楚点发到{EMAIL}就行，claim id是{UUID}", "source": "zh-18-0-54", "model": "claude-opus-5-5"}
+{"id": "s0468", "lang": "zh", "text": "系统又崩了。。理赔单{ORDER}卡在审核那步，版本{VER}的bug吧，刷新了{INT}次都不行", "source": "zh-18-0-54", "model": "claude-opus-5-5"}
+{"id": "s0469", "lang": "zh", "text": "赔款打到哪张卡？就你上回填的那个{CARD}嘛，户名{NAME_ZH}，对不上的话钱会退回来的哈", "source": "zh-18-0-54", "model": "claude-opus-5-5"}
+{"id": "s0470", "lang": "zh", "text": "这个理赔的事儿跟小说里{FICT}骗保那段一模一样哈哈，不过咱这单{ORDER}是真出险了，别瞎想", "source": "zh-18-0-54", "model": "claude-opus-5-5"}
+{"id": "s0471", "lang": "mixed", "text": "医院发票拍一下，还有出院小结。地址写{ADDR_ZH}，快递单号{ORDER}，到了我这边审，大概{INT}个工作日", "source": "zh-18-0-54", "model": "claude-opus-5-5"}
+{"id": "s0472", "lang": "mixed", "text": "后台接口超时了，log里trace是{HEX}，耗时{MS}ms，跑在{LOCALIP}:{PORT}上，理赔服务{VER}，谁有空看一眼", "source": "zh-18-0-54", "model": "claude-opus-5-5"}
+{"id": "s0473", "lang": "mixed", "text": "{FIRST_EN} {LAST_EN}的海外医疗理赔，地址{ADDR_EN}，SSN {SSN}，材料齐了吗？齐了直接转{ORG_EN}那边", "source": "zh-18-0-54", "model": "claude-opus-5-5"}
+{"id": "s0474", "lang": "zh", "text": "兹证明被保险人{NAME_ZH}，联系电话{PHONE_CN}，现居住于{ADDR_ZH}，于保单有效期内发生意外事故，特此申请理赔。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0475", "lang": "mixed", "text": "Dear {NAME_EN},\n您的 claim（编号{ORDER}）已审核通过，赔款将转入尾号为{CARD}的银行账户。如有疑问，请致信{EMAIL}。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0476", "lang": "zh", "text": "经{ORG_ZH}核赔部复核，{SURNAME_ZH}先生所报车损案件材料齐全，定损金额为人民币{INT}元，现予以结案。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0477", "lang": "zh", "text": "理赔系统已升级至{VER}版本，新增案件进度查询功能。处理时长平均缩短至{MS}毫秒，详见公告编号{ORDER}。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0478", "lang": "mixed", "text": "根据保险合同第{INT}条约定，等待期内发生的疾病不属于保险责任范围。本通知适用于产品代码{SKU}，系统版本{VER}。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0479", "lang": "mixed", "text": "关于{ORG_EN}员工团体医疗险：投保人联系人{NAME_ZH}（{PHONE_CN}），被保险人{FIRST_EN} {LAST_EN}，SSN {SSN}，美国联系电话{PHONE_US}，请一并核对。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0480", "lang": "zh", "text": "{SURNAME_ZH}总：贵司报案的仓储火灾事故已派查勘员前往{ADDR_ZH}现场勘查，预计于{TS}出具查勘报告。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0481", "lang": "zh", "text": "本案涉及的剧本杀道具损失中，角色“{FICT}”的服装属于商家自有财产，不在本保单承保范围内，请知悉。案件号：{ORDER}。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0482", "lang": "zh", "text": "理赔材料清单：一、理赔申请书；二、被保险人身份证明；三、医疗费用发票及清单；四、出院小结。以上材料须加盖医院公章，编号{UID}。", "source": "zh-18-1-55", "model": "claude-opus-5-5"}
+{"id": "s0483", "lang": "zh", "text": "理赔申请单\n被保险人：{NAME_ZH}\n身份证号：{CN_ID}\n联系电话：{PHONE_CN}\n出险地址：{ADDR_ZH}\n报案编号：{ORDER}", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0484", "lang": "mixed", "text": "Claim No.: {ORDER}\nPolicy Holder: {NAME_EN}\nEmail: {EMAIL}\nPhone: {PHONE_US}\nMailing Address: {ADDR_EN}\n状态：待审核", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0485", "lang": "zh", "text": "收款账户信息｜开户人：{NAME_ZH}｜银行卡号：{CARD}｜预留手机：{PHONE_CN}｜赔付金额：{INT}元", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0486", "lang": "zh", "text": "案件分配记录：\n查勘员：{SURNAME_ZH}老师\n委托方：{ORG_ZH}\n对接人：{SURNAME_ZH}总（{PHONE_CN}）\n分配时间：{TS}", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0487", "lang": "mixed", "text": "| 字段 | 值 |\n| claimant | {FIRST_EN} {LAST_EN} |\n| SSN | {SSN} |\n| employer | {ORG_EN} |\n| submitted_at | {TS} |", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0488", "lang": "mixed", "text": "[理赔系统日志] {TS} user_id={UID} 提交材料；回调地址 {DBURL}；token={JWT}；来源IP：{IP}", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0489", "lang": "zh", "text": "理赔进度查询\n案件号：{ORDER}\n当前环节：核赔\n处理时长：{INT}天\n系统版本：{VER}\n备注：材料齐全，等待复核。", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0490", "lang": "mixed", "text": "Batch Report\nbatch_id: {UUID}\n处理条数: {INT}\n失败条数: {INT}\n耗时: {MS}ms\n服务地址: {LOCALIP}:{PORT}\n校验和: {SHA}", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0491", "lang": "zh", "text": "免责条款示例：若被保险人因参与“{FICT}”主题实景演出受伤，按条款第{INT}条处理。险种代码：{SKU}；条款版本：{VER}。", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0492", "lang": "zh", "text": "理赔表格行：{ORDER}，车险，定损金额{INT}元，审核结果：通过，审核时间{TS}，影像包编号{HEX}。", "source": "zh-18-2-56", "model": "claude-opus-5-5"}
+{"id": "s0493", "lang": "zh", "text": "简历先发你哈，{NAME_ZH}，电话{PHONE_CN}，邮箱{EMAIL}，之前在{ORG_ZH}干了三年前端，期望薪资面议吧", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0494", "lang": "mixed", "text": "hr你好，我是{NAME_EN}，中文名{NAME_ZH}，在{ORG_EN}做过backend，主要写Go，项目是{PROJECT}，有兴趣可以打我{PHONE_US}或者微信同号", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0495", "lang": "zh", "text": "{SURNAME_ZH}总，昨天那个候选人的简历我转你了，他住{ADDR_ZH}，通勤有点远，你看看要不要约二面？", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0496", "lang": "zh", "text": "工作经历：\n{TS}-至今 {ORG_ZH} 高级测试\n负责{PROJECT}的自动化，用例覆盖率从{INT}%提到九十多\n联系人：{NAME_ZH}（本人） {PHONE_CN}", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0497", "lang": "mixed", "text": "入职材料要身份证号哈，{NAME_ZH}女士麻烦补一下：{CN_ID}，工资卡{CARD}也一起发我，别发群里！！", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0498", "lang": "zh", "text": "简历模版v{VER}更新了下，去掉了照片栏，加了个项目经验，大家投递的时候用新版的就行，旧的别用了哈", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0499", "lang": "mixed", "text": "个人作品：小说《{FICT}传》同人站，日活大概{INT}，部署在自己服务器上，后端Node，接口平均响应{MS}ms左右，代码在github上可以看", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0500", "lang": "mixed", "text": "Hi {FIRST_EN}，这是推荐人信息：{NAME_EN}，{ORG_EN} 的manager，email {EMAIL}，地址{ADDR_EN}，他说随时可以背调", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0501", "lang": "zh", "text": "内推码{UID}，投递编号{ORDER}，系统里状态显示已筛选，等了快两周了还没消息，是不是挂了啊", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0502", "lang": "mixed", "text": "技能：熟悉k8s、docker，本地起服务一般{LOCALIP}:{PORT}调试，git提交记录大概{INT}条，最近一次commit {SHA}，别的没啥了", "source": "zh-19-0-57", "model": "claude-opus-5-5"}
+{"id": "s0503", "lang": "zh", "text": "个人简历\n姓名：{NAME_ZH}\n联系电话：{PHONE_CN}\n电子邮箱：{EMAIL}\n现居地址：{ADDR_ZH}\n求职意向：高级后端开发工程师", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0504", "lang": "mixed", "text": "工作经历：{TS} 至今，就职于{ORG_ZH}（{ORG_EN}），担任 Senior Software Engineer，主导{PROJECT}项目的架构设计，服务日均请求量约{INT}次，接口平均延迟控制在{MS}毫秒以内。", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0505", "lang": "mixed", "text": "English Name: {NAME_EN}\nFirst Name: {FIRST_EN}，Last Name: {LAST_EN}\nPhone (US): {PHONE_US}\nEmail: {EMAIL}\nAddress: {ADDR_EN}", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0506", "lang": "zh", "text": "身份证号：{CN_ID}；户籍所在地：{ADDR_ZH}。本人承诺以上所填信息真实有效，如有虚假，愿承担相应责任。签名：{NAME_ZH}", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0507", "lang": "mixed", "text": "项目经验：参与开源组件升级，将依赖由 {VER} 迁移至 {VER}，修复内存泄漏问题（commit {SHA}），单元测试覆盖率提升至{INT}%。", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0508", "lang": "zh", "text": "自我评价：具备良好的沟通能力与团队协作精神，熟悉分布式系统设计，能够独立完成需求分析、方案评审与上线部署，抗压能力强，乐于接受新挑战。", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0509", "lang": "zh", "text": "获奖情况：{TS}年荣获校级优秀毕业设计奖，论文以小说人物{FICT}的叙事结构为研究对象，探讨人物塑造与情节推进的关系。", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0510", "lang": "mixed", "text": "简历投递编号：{ORDER}\n岗位编码：{SKU}\n投递时间：{TS}\n系统流水号：{UUID}\n当前状态：已进入初筛，请耐心等待 HR 通知。", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0511", "lang": "mixed", "text": "技能证书：AWS Certified Solutions Architect（证书编号 {UID}），PMP 项目管理认证；熟练掌握 Kubernetes、Redis，曾在内网环境 {LOCALIP}:{PORT} 搭建测试集群。", "source": "zh-19-1-58", "model": "claude-opus-5-5"}
+{"id": "s0512", "lang": "zh", "text": "姓名：{NAME_ZH}\n性别：男\n手机：{PHONE_CN}\n邮箱：{EMAIL}\n现居地：{ADDR_ZH}\n求职意向：后端开发工程师", "source": "zh-19-2-59", "model": "claude-opus-5-5"}
+{"id": "s0513", "lang": "mixed", "text": "Name: {NAME_EN} | Tel: {PHONE_US} | Email: {EMAIL}\n工作经历：2019-至今 {ORG_EN}，Senior Software Engineer，负责 {PROJECT} 的架构设计", "source": "zh-19-2-59", "model": "claude-opus-5-5"}
+{"id": "s0514", "lang": "zh", "text": "岗位编号：{UID}\n投递渠道：内推\n简历版本：{VER}\n更新时间：{TS}\n备注：候选人已完成一面，待安排二面", "source": "zh-19-2-59", "model": "claude-opus-5-5"}
+{"id": "s0515", "lang": "mixed", "text": "身份证号：{CN_ID}\n紧急联系人：{NAME_ZH}（母亲），{PHONE_CN}\n期望薪资：{INT}K/月\nEnglish name: {FIRST_EN} {LAST_EN}", "source": "zh-19-2-59", "model": "claude-opus-5-5"}
+{"id": "s0516", "lang": "mixed", "text": "项目经历\n项目名称：{PROJECT}\n角色：Tech Lead\n描述：将接口延迟从 {MS}ms 降至 {MS}ms，服务部署于 {LOCALIP}:{PORT}，提交记录见 commit {SHA}", "source": "zh-19-2-59", "model": "claude-opus-5-5"}
+{"id": "s0517", "lang": "zh", "text": "自我评价：热爱写作，业余时间创作网络小说，代表作主角为{FICT}，累计更新 {INT} 万字。技能：Python、Go、SQL。", "source": "zh-19-2-59", "model": "claude-opus-5-5"}
+{"id": "s0518", "lang": "mixed", "text": "推荐人：{NAME_ZH}老师，{ORG_ZH}计算机学院\n联系方式：{EMAIL}；办公地址：{ADDR_ZH}\nReference 2: Mr. {LAST_EN}, {ORG_EN}, {PHONE_US}", "source": "zh-19-2-59", "model": "claude-opus-5-5"}
+{"id": "s0519", "lang": "zh", "text": "面试评估表\n候选人编号：{UID}\n技术面得分：{INT}/100\n综合面得分：{INT}/100\n结论：建议录用，offer 流水号 {ORDER}", "source": "zh-19-2-59", "model": "claude-opus-5-5"}
