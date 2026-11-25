@@ -16,3 +16,6 @@ training/.cache
 .deploy
 .claude/settings.local.json
 *.tgz
+
+# demo videos / GIFs (served from the playground, not committed)
+media/

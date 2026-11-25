@@ -58,3 +58,8 @@ test('code that mentions names or passwords is not PII', () => {
   assert.equal(detectHeuristic('姓名：王小明\n').filter(e => e.type === 'PERSON').length, 1)
   assert.equal(detectHeuristic('my password is Tr0ub4dor&3 ok').filter(e => e.type === 'SECRET').length, 1)
 })
+
+test('a labelled secret stops at CJK text and full-width punctuation', () => {
+  assert.deepEqual(types('token=sk-live-9f8e7d6c5b4a3210zyxw，来自 203.0.113.7'), ['SECRET:sk-live-9f8e7d6c5b4a3210zyxw', 'IP:203.0.113.7'])
+  assert.deepEqual(types('password: Abc12345，记得改'), ['SECRET:Abc12345'])
+})

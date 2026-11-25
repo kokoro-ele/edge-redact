@@ -1,6 +1,6 @@
 import type { Entity, EntityType } from '../../src/index.ts'
 import type { Req, Res } from './worker.ts'
-import { redactSync, restore } from '../../src/index.ts'
+import { redactSync, restore, RISK } from '../../src/index.ts'
 
 const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T
 const input = $<HTMLTextAreaElement>('input')
@@ -215,12 +215,30 @@ function render() {
   updateCopy()
 }
 
+/** Same text as restore(), with the values that came back highlighted. */
+function renderRestored(t: string) {
+  restored.replaceChildren()
+  let pos = 0
+  for (const m of t.matchAll(/\[([A-Z_]+)_\d+\]/g)) {
+    const value = mapping[m[0]]
+    if (value === undefined)
+      continue
+    restored.append(t.slice(pos, m.index))
+    const mk = document.createElement('mark')
+    mk.className = RISK[m[1] as EntityType] ?? 'medium'
+    mk.textContent = value
+    restored.append(mk)
+    pos = m.index + m[0].length
+  }
+  restored.append(t.slice(pos))
+}
+
 function renderRestore() {
   const t = reply.value
   if (!t)
     restored.innerHTML = '<span class="empty">还原后的文本</span>'
   else
-    restored.textContent = restore(t, mapping)
+    renderRestored(t)
   updateCopy()
 }
 

@@ -44,7 +44,7 @@ const RULES: Rule[] = [
   {
     // key=value / key: "value" for secret-like keys
     type: 'SECRET',
-    re: /\b(?:pass(?:word|wd)?|pwd|secret|client_secret|api[_-]?key|access[_-]?key|auth[_-]?token|token|private[_-]?key|密码|パスワード)["'*]{0,2}\s*(?:[:=：]|是|は)\**\s*["']?([^\s"'`,;&<>*]{6,})/gi,
+    re: /\b(?:pass(?:word|wd)?|pwd|secret|client_secret|api[_-]?key|access[_-]?key|auth[_-]?token|token|private[_-]?key|密码|パスワード)["'*]{0,2}\s*(?:[:=：]|是|は)\**\s*["']?([^\s"'`,;&<>*\u3000-\u303F\u4E00-\u9FFF\uFF00-\uFFEF]{6,})/gi,
     check: (m) => {
       const v = m[1]!
       if (/^(?:\*+|x+|null|none|undefined|true|false|changeme|password|your[_-].*|<.*>|\$\{.*\}|process\.env.*|os\.environ.*)$/i.test(v))
