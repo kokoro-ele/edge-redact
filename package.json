@@ -35,6 +35,7 @@
   "files": [
     "dist",
     "models/zh-en-ds48-int4.erdm",
+    "README.en.md",
     "MODEL_CARD.md",
     "THIRD_PARTY_NOTICES.md"
   ],
